@@ -1,0 +1,105 @@
+.up {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 30rpx;
+  width: 20px;
+  height: 20px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  transform: rotate(45deg);
+
+}
+
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.login-box {
+  height: 100%;
+}
+
+image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  z-index: -999;
+}
+
+.gitTu {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen; 
+  height: 100rpx;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.tabBar {
+  background-color: white;
+  color: black;
+  white-space: nowrap;
+  display: block;
+  width: 100%;
+}
+
+.dengLu {
+  height: 90rpx;
+  display: inline-block;
+  line-height: 90rpx;
+  margin: 0 10rpx;
+  padding: 0 20rpx;
+  flex: 1;
+}
+
+.zhuCe {
+  height: 90rpx;
+  display: inline-block;
+  line-height: 90rpx;
+  margin: 0 10rpx;
+  padding: 0 20rpx;
+  flex: 1;
+}
+
+.gongChu {
+  text-align: center;
+  display: flex;
+}
+
+.box1 {
+  z-index: 2;
+  margin-top: 20rpx;
+  border-radius: 12rpx;
+  box-shadow: rgba(12, 12, 12, 0.03) 0px 2px 15px -5px;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+.box5 {
+  display: block;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #999999 !important;
+  font-weight: 300;
+}
+
+.box6 {
+  float: right;
+  min-width: 80rpx;
+  text-align: center;
+  display: block;
+}

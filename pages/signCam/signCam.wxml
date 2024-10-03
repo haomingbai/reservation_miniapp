@@ -1,0 +1,18 @@
+<camera wx:if="{{!identifying&&kuang}}" style="width: 750rpx; height: 100vh;" flash="{{flashFlag}}" device-position="{{positionFlag}}">
+    <cover-view class="header-tool">
+        <cover-view class="barTop" style="height: {{barInfo.barTop-10}}px;"></cover-view>
+        <cover-view class="bar-warp" style="margin-left: {{barInfo.margin}}px;height: {{barInfo.barBtnH-4}}px;">
+            <cover-view bindtap="exit" style="margin-right: {{barInfo.margin}}px;height: 100%;width:{{barInfo.barBtnH-4}}px">
+                <cover-image src="../image/photo/cuowuguanbiquxiao.png"></cover-image>
+            </cover-view>
+            <cover-view style="height: 100%;width:{{barInfo.barBtnH-10}}px" bindtap="flash">
+                <cover-image src="../image/photo/shanguangdeng{{flashFlag=='off'?'':'-o'}}.png"></cover-image>
+            </cover-view>
+        </cover-view>
+    </cover-view>
+    <cover-view class="catch-warp">
+    <cover-image src="../image/photo/check.png" style="width: 40vh;height: 40vh;"></cover-image>
+    </cover-view>
+    
+    <cover-view class="catch-tips text-grey" wx:if="{{antiSecond == 16}}" >请把二维码放入中间核检</cover-view>
+</camera>

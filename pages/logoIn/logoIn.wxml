@@ -1,0 +1,131 @@
+<!-- 头部栏 -->
+<view>
+  <image src='../image/logoIn/logoIn.png' mode="widthFix" style="width: 100%;"></image>
+  <view class="head-bar" style="height: {{barInfo.barH}}px;  padding-top: {{barInfo.barTop}}px;width: 100%;">
+    <view style="height: {{barInfo.barBtnH}}px; line-height: {{barInfo.barBtnH}}px; " class="up">
+      <view class="arrow" bindtap="toNavigate2"></view>
+      <view style="margin-left: 3vh; font-size: 42rpx;">
+      </view>
+    </view>
+  </view>
+  <view>
+  </view>
+</view>
+
+<!-- 大标题 -->
+<view style="font-size: large;color: white;font-weight: 600;">
+  <view class="basis-df margin-xs padding-sm radius">
+    欢迎使用
+  </view>
+  <view class="basis-df margin-xs padding-sm radius">
+    考试报名服务
+  </view>
+</view>
+<!-- 头部栏 -->
+
+<view animation="{{animationData}}" class="padding-xl radius shadow-warp  bg-white" style="margin-top: 0vh;border-radius: 50rpx;height: 100vh;position: relative;z-index: 1;">
+
+  <!-- 还未登录 -->
+  <block wx:if="{{logoIn}}">
+    <view>
+      <view class="text-black padding" style="font-weight: 600;">
+        账号
+      </view>
+      <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
+        <input type="text" placeholder="请输入您的账号" style="width: 100%;" />
+      </view>
+    </view>
+    <view>
+      <view class="text-black padding margin-top" style="font-weight: 600;">
+        密码
+      </view>
+      <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
+        <input type="text" password="{{!isShowPassword}}" placeholder="请输入您的密码" style="width: 100%;" />
+        <image src="{{psdStatus}}" bindtap="isShowPsd" style="width: 50rpx;height: 50rpx;position: relative;z-index: 2;" mode="aspectFill"></image>
+      </view>
+    </view>
+
+    <view bindtap="toggle" class="block  margin-tb-sm lg margin-top" style="margin-top: 3vh;color: #af8b7c;border-bottom: 2rpx solid #af8b7c;width: 140rpx;">
+      现在注册？
+    </view>
+    <button bindtap="logoInUser" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 5vh;width: 100%;background-color: #8044de;color: white;">
+      <text class="iconfont-spin margin-top"></text> 登录
+    </button>
+  </block>
+
+  <!-- 注册新账号 -->
+  <block wx:if="{{!logoIn&&logoIntoGet}}">
+    <view>
+      <view class="text-black padding" style="font-weight: 600;">
+        设置账号
+      </view>
+      <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
+        <input type="text" placeholder="请输入您的账号" style="width: 100%;" />
+      </view>
+    </view>
+
+    <view>
+      <view class="text-black padding margin-top" style="font-weight: 600;">
+        设置密码
+      </view>
+<!--  显示是否是可以显示密码 -->
+      <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
+        <input type="text" password="{{!isShowPassword}}" placeholder="请输入您的密码"  style="width: 100%;" />
+        <image src="{{psdStatus}}" bindtap="isShowPsd" style="width: 50rpx;height: 50rpx;position: relative;z-index: 2;" mode="aspectFill"></image>
+      </view>
+    </view>
+
+    <button bindtap="toNext" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 5vh;width: 100%;background-color: #8044de;color: white;">
+      <text class="iconfont-spin margin-top"></text> 下一步
+    </button>
+
+    <button bindtap="toBack" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 2vh;width: 100%;background-color: #8044de;color: white;">
+      <text class="iconfont-spin margin-top"></text> 返回
+    </button>
+
+  </block>
+  <!-- 手机号码验证 -->
+  <block wx:if="{{!logoIntoGet}}">
+    <view>
+      <view class="text-black padding" style="font-weight: 600;">
+        输入手机号
+      </view>
+      <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
+        <input type="number" placeholder="请输入您的手机号" style="width: 100%;" />
+      </view>
+    </view>
+
+    <view>
+      <view class="text-black padding margin-top" style="font-weight: 600;">
+        填写验证码
+      </view>
+
+      <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
+        <input type="text" placeholder="请输入验证码" style="width: 100%;" />
+        <!-- 验证码显示的地方显示的 -->
+        <button bindtap="sendSmsF" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 0vh;margin-bottom: 0vh;width: 30%;background-color: #8044de;color: white;padding: 0  10rpx 0 10rpx;">
+          <view wx:if="{{sendMessage}}">{{second}}</view>
+          <view wx:if="{{!sendMessage}}" style="font-size: 25rpx;">验证码</view>
+        </button>
+      </view>
+
+    </view>
+
+
+    <button bindtap="logoInUser" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 5vh;width: 100%;background-color: #8044de;color: white;">
+      <text class="iconfont-spin margin-top"></text> 确认
+    </button>
+
+    <button bindtap="toBack2" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 2vh;width: 100%;background-color: #8044de;color: white;">
+      <text class="iconfont-spin margin-top"></text> 返回
+    </button>
+
+  </block>
+  <view style="color: #999999; font-size: 12px;margin-top: 7vh;">
+    <checkbox class="agree" bind:tap="bandleChange" value="true" checked="{{isAgree}}" style="transform:scale(0.7)"></checkbox>
+    <text>请认真阅读并同意</text>
+    <text bindtap="privateUserSign" style="color: red;font-weight: 600;width: 100%;height: auto;">《用户协议》</text>
+    <text>和</text>
+    <text bindtap="privateSign" style="color: red;font-weight: 600;width: 100%;">《隐私协议》</text>
+  </view>
+</view>

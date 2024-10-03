@@ -1,0 +1,4 @@
+<!--pages/uisLogin/uisLogin.wxml-->
+<text>pages/uisLogin/uisLogin.wxml</text>
+<image src="{{qrUrl}}"></image>
+<button bind:tap="testButton"></button>

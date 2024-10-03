@@ -1,0 +1,149 @@
+<scroll-view scroll-y class="cu-drawer-page {{modalName=='viewModal'?'show':''}}">
+  <view class="head-bar" style="height: {{barInfo.barH}}px; width: 100%;width: 750rpx;z-index: 999;">
+</view>
+
+<view class="head-bar" style="height: {{barInfo.barH}}px; width: 100%;width: 750rpx;z-index: 999;position: fixed;top: 0rpx;background-color: #f1f1f1;">
+</view>
+
+  <!-- tabbar -->
+  <view class="margin-top-xs shadow shadow-lg" style="position: fixed;bottom: 0vh;width: 750rpx;z-index: 20;padding-bottom: 2vh;background-color: white;overflow: hidden;border-top-right-radius: 40rpx;border-top-left-radius: 40rpx;padding-top: 1vh;">
+    <view class="cu-bar tabbar bg-white margin-top-xs ">
+      <view class="action" style="margin-left: 60rpx;">
+        <button class="cu-btn round" style="width: 300rpx;height: 5vh;background-color: #eaecfe;display: flex;justify-content:center;">
+          <image src="../image/tabbar/lookReserveS.png" mode="heightFix" style="height: 50%;margin-right: 15rpx;">
+          </image>
+          <view style="color: #857efd;font-weight:bolder;font-size: small;">
+            报名信息
+          </view>
+        </button>
+      </view>
+
+      <view class="action">
+        <button bind:tap="navigateToTabbar" data-url="/pages/homePage/homePage" class="cu-btn round" style="width: 100rpx;height: 5vh;background-color: #ffffff;display: flex;justify-content: space-evenly;">
+          <image src="../image/tabbar/reserveun.png" mode="heightFix" style="height: 50%;">
+          </image>
+        </button>
+      </view>
+
+      <view class="action">
+        <button bindtap="showModal" data-target="viewModal" class="cu-btn round" style="width: 100rpx;height: 5vh;background-color: #ffffff;display: flex;justify-content: space-evenly;">
+          <image src="../image/tabbar/persion.png" mode="heightFix" style="height: 50%;">
+          </image>
+        </button>
+      </view>
+
+
+    </view>
+  </view>
+
+  <!-- 全部 -->
+  <view style="height: 198rpx;">
+  </view>
+  <!-- 背景 -->
+  <image src='/pages/image/reservation/history.png' mode='widthFix' class='bg-img-new' style="width: 710rpx;margin: 0rpx 20rpx 0vh 20rpx;z-index: 1;position: fixed;top: {{barInfo.barH}}px;left: 0rpx;">
+  </image>
+  <!-- 背景 -->
+  <image hidden="{{selectAll}}" src='/pages/image/reservation/history_1.png' mode='widthFix' class='bg-img-new' style="width: 710rpx;margin: 0rpx 20rpx 0vh 20rpx;z-index: 1;position: fixed;top: {{barInfo.barH}}px;left: 0rpx;"></image>
+  <!-- 未签到 -->
+  <!-- 背景 -->
+  <image hidden="{{!selectAll}}" src='/pages/image/reservation/history_2.png' mode='widthFix' class='bg-img-new' style="width: 710rpx;margin: 0rpx 20rpx 0vh 20rpx;z-index: 1;position: fixed;top: {{barInfo.barH}}px;left: 0rpx;"></image>
+
+  <view class="text-white" style="width: 710rpx;margin: 0rpx 20rpx 0vh 20rpx;height: 11vh;color: white;z-index: 999;display: flex;position: fixed;top: {{barInfo.barH}}px;z-index: 1;">
+    <view bind:tap="selectKind" data-target="{{false}}" class="text-bold" style="font-size: 18px;width: 355rpx;display: flex;align-items: flex-end;justify-content: flex-start;padding-bottom: 3vh;padding-left: 58rpx;">
+      未签到
+    </view>
+    <view bind:tap="selectKind" data-target="{{true}}" class="text-bold" style="font-size: 18px;width: 355rpx;display: flex;align-items: flex-end;justify-content: flex-end;padding-bottom: 3vh;padding-right: 68rpx;">
+      全部
+    </view>
+  </view>
+
+  <!-- 查看我的预约信息 -->
+  <view class="padding-lr" style="margin-top: 1vh;position: fixed;z-index: 1;right: 0rpx;">
+    <view style="display: flex;justify-content: flex-end;padding-right: 20rpx;height: 5vh;align-items: center;padding: 0rpx 0rpx 0vh 40rpx;">
+      <picker mode="selector" range="{{typeofExam}}" value="{{indexExam}}" bindchange="pickExam">
+        <view class="text-purple text-bold radius cuIcon-unfold" style="height: 4vh;padding: 0rpx 20rpx 0rpx 20rpx;display: flex;align-items: center;justify-content: space-evenly;background-color:#e5e5fc;border-radius: 20rpx;">
+          {{typeofExam[indexExam]}}
+        </view>
+      </picker>
+      <!--       <picker mode="selector" range="{{typeofTime}}" value="{{indexTime}}" bindchange="pickTime">
+      <view  style="font-size: 16px;height: auto;line-height: 25px;margin-left: 1vh;">
+        {{typeofTime[indexTime]}}
+      </view>
+      </picker> -->
+    </view>
+  </view>
+  <view style="height: 5vh;"></view>
+  <scroll-view class="padding-lr" scroll-y="true" style="margin-top: 2vh;height: {{calculatedHeight}};border-radius: 8%;overflow: hidden;">
+    <!-- <view style="height: 5vh;align-items: center;padding: 0rpx 0rpx 2vh 40rpx;">
+        <view class=" text-bold radius" style="height: 4vh;padding: 0rpx 20rpx 0rpx 20rpx;">
+        </view>
+    </view> -->
+
+
+    <view bind:tap="navigateUrl" data-url="/pages/reservation/reservation" class="cu-list menu-avatar bg-white shadow" style="border-radius: 20rpx;height: 14vh">
+      <view class="cu-item" style="height: 14vh;">
+        <view class="cu-avatar  lg" style="height: 10vh;display: flex;align-items: flex-start;padding-top: 2vh;margin: 1.5vh 0rpx 1.5vh 0rpx;background-color: #f7e6ff;border-radius: 20rpx;">
+          <image src="../image/tabbar/exam.png" mode="heightFix" style="height: 3vh;" />
+        </view>
+        <view class="content" style="display: flex;flex-flow: column;height: 14vh;padding: 3vh 0rpx 3vh 30rpx;">
+          <view class="text-black text-bold" style="font-size: 21px;">python语言</view>
+          <view class="text-gray text-sm flex" style="margin-top: 0.7vh;">
+            <text class="text-cut">
+              <text class="cuIcon-time text-gray  margin-right-xs"></text>09:00-12:00
+            </text>
+          </view>
+          <view class="text-gray text-sm flex">
+            <text class="text-cut">
+              <text class="cuIcon-time text-gray  margin-right-xs"></text>实验大楼207
+            </text>
+          </view>
+
+        </view>
+        <view class="action" style="height: 14vh;padding: 3vh 0rpx 3vh 0rpx;width: 150rpx;">
+          <view class="text-grey text-xs" style="font-size: 16px;">签到状态</view>
+          <view class="cu-tag round bg-grey sm" style="font-size: 16px;padding: 1vh 0rpx 1vh 0rpx;width: 150rpx;height: 4vh;margin-top: 2vh;">未签到</view>
+        </view>
+      </view>
+    </view>
+
+    <view wx:for="{{list}}" bind:tap="navigateUrl" data-url="/pages/reservation/reservation" class="cu-list menu-avatar bg-white shadow" style="border-radius: 20rpx;height: 14vh">
+      <view class="cu-item" style="height: 14vh;">
+        <view class="cu-avatar  lg" style="height: 10vh;display: flex;align-items: flex-start;padding-top: 2vh;margin: 1.5vh 0rpx 1.5vh 0rpx;background-color: #f7e6ff;border-radius: 20rpx;">
+          <image src="../image/tabbar/exam.png" mode="heightFix" style="height: 3vh;" />
+        </view>
+        <view class="content" style="display: flex;flex-flow: column;height: 14vh;padding: 3vh 0rpx 3vh 30rpx;">
+          <view class="text-black text-bold" style="font-size: 21px;">C++语言</view>
+          <view class="text-gray text-sm flex" style="margin-top: 0.7vh;">
+            <text class="text-cut">
+              <text class="cuIcon-time text-gray  margin-right-xs"></text>09:00-12:00
+            </text>
+          </view>
+          <view class="text-gray text-sm flex">
+            <text class="text-cut">
+              <text class="cuIcon-time text-gray  margin-right-xs"></text>实验大楼207
+            </text>
+          </view>
+
+        </view>
+        <view class="action" style="height: 14vh;padding: 3vh 0rpx 3vh 0rpx;width: 150rpx;">
+          <view class="text-grey text-xs" style="font-size: 16px;">签到状态</view>
+          <view class="cu-tag round bg-blue sm" style="font-size: 16px;padding: 1vh 0rpx 1vh 0rpx;width: 150rpx;height: 4vh;margin-top: 2vh;">已签到</view>
+        </view>
+      </view>
+    </view>
+
+    <view style="height: 50vh;">
+    </view>
+  </scroll-view>
+
+
+</scroll-view>
+
+<!-- 抽屉模型 -->
+<view class="cu-drawer-close {{modalName=='viewModal'?'show':''}}" bindtap="hideModal">
+  <text class="cuIcon-pullright"></text>
+</view>
+
+<scroll-view scroll-y class="cu-drawer-window {{modalName=='viewModal'?'show':''}}">
+  <homePage></homePage>
+</scroll-view>

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/homePage/homePage",
+    "pages/personalInfo/personalInfo",
+    "pages/lookReservation/lookReservation",
+    "pages/logoIn/logoIn",
+    "pages/userSign/userSign",
+    "pages/privacySign/privacySign",
+    "pages/reservationInfo/reservationInfo",
+    "pages/reservation/reservation",
+    "pages/reservationSucessInfo/reservationSucessInfo",
+    "pages/about/about",
+    "pages/signCam/signCam",
+    "pages/admin/admin",
+    "pages/examInfoTeacher/examInfoTeacher",
+    "pages/uisLogin/uisLogin"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "考试报名预约",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "selectedColor": "#A66840",
+    "list": [
+      {
+        "pagePath": "pages/homePage/homePage",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/personalInfo/personalInfo",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/lookReservation/lookReservation",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "permission": {}
+}

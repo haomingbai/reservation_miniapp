@@ -1,0 +1,13 @@
+<scroll-view scroll-y class="scrollPage">
+
+<view class='margin-xl bg-white padding-xl radius-lg shadow-lg'>
+  <view class='text-center text-lg text-bold text-blue' style="color: rgb(133, 148, 160);">产品介绍</view>
+  <text decode="{{true}}" style="height: 48vh;width: 100%;padding: 0vh;text-align: start;line-height: 3vh;">
+    &nbsp;&nbsp;&nbsp;&nbsp;我们的考试预约小程序是一个基于微信平台的便捷预约工具，旨在为学生和教育机构提供高效的考试安排服务。通过小程序，考生可以随时随地选择合适的考试时间并完成预约，从而避免传统报名流程中的繁琐步骤。\n
+    &nbsp;&nbsp;&nbsp;&nbsp;小程序支持一键预约功能，用户仅需简单操作即可确认预约时间，并且系统会自动发送提醒通知，确保考生不会错过重要的考试信息。相较于传统的报名系统，我们的解决方案速度更快、操作更简单，让考试预约变得更加轻松。\n
+    &nbsp;&nbsp;&nbsp;&nbsp;此外，小程序基于云端数据同步功能，教育机构可以实时查看预约情况并灵活调整安排，实现了考生与考试资源的高效对接。我们团队与多家教育机构合作，确保平台的安全稳定，保障用户数据的隐私。\n
+    &nbsp;&nbsp;&nbsp;&nbsp;通过我们的考试预约小程序，考生能够有效节省时间，教育机构也可以优化考试资源管理，使考试预约过程变得更智能、更便捷。\n
+  </text>
+</view>
+
+</scroll-view>

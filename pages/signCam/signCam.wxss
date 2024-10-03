@@ -1,0 +1,182 @@
+.camera-warp {
+  position: relative;
+}
+
+.header-tool {
+  position: absolute;
+}
+
+.bar-warp {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.catch-warp {
+  position: absolute;
+  height: 70vh;
+  width: 100vw;
+  margin: 13vh 0vw 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+  /* border: 2rpx dotted #f2f2f2; */
+}
+
+.catch-tips {
+  position: absolute;
+  bottom: 5vh;
+  color: #f2f2f2;
+  width: 750rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.identifying-img {
+  width: 750rpx;
+  height: 70vh;
+}
+
+.bottom-warp {
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  height: 30vh;
+}
+
+.bottom-bar {
+  height: 76rpx;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  color: #999;
+  /* text-decoration: underline; */
+  width: 100%;
+  font-size: 25rpx;
+}
+
+.bottom-bar .bar-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.bar-item__active {
+  border-bottom: 3rpx solid var(--theme);
+  font-size: 28rpx;
+  color: var(--theme);
+}
+
+/* .beta-tag{
+  position: absolute;
+  right: 15%;
+  background-color: var(--red);
+  color: white;
+  padding: 2rpx 10rpx;
+  border-radius: 14rpx;
+  font-size: 20rpx;
+  line-height: 24rpx;
+  height: 28rpx;
+} */
+.beta-item::after {
+  content: "Beta";
+  background-color: var(--red);
+  color: white;
+  border-radius: 12rpx;
+  font-size: 20rpx;
+  padding: 0 10rpx;
+  display: flex;
+  align-items: center;
+  height: 24rpx;
+
+  position: absolute;
+  bottom: 19rpx;
+  right: 17%;
+  animation-name: beat;
+  /*动画名称*/
+  animation-duration: .7s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* animation-play-state: running; */
+}
+@keyframes beat {
+  0% {
+      bottom: 22rpx;
+  }
+  100% {
+      bottom: 29rpx;
+  }
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: calc(30vh - 152rpx);
+}
+
+.bottom-warp .btn-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140rpx;
+  width: 140rpx;
+}
+
+.take-btn {
+  border-radius: 50%;
+  border: 1rpx solid var(--theme);
+  padding: 8rpx;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.take-btn-in {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--theme);
+}
+
+.sub-btn {
+  height: 100rpx !important;
+  width: 100rpx !important;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+  /* margin: 10rpx; */
+}
+
+.my-canvas {
+  position: fixed;
+  left: 100vw;
+  top: 0;
+}
+.api-container{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 24rpx;
+font-size: #666;
+}
+.api-box{
+display: flex;
+margin-right: 10rpx;
+}
+.api-name{
+margin: 0 10rpx;
+text-align: center;
+text-decoration: underline;
+}
+.api-switch{
+/* color: var(--theme); */
+text-decoration: underline;
+}

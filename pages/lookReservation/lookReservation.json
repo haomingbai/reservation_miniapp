@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "homePage":"/pages/personalInfo/personalInfo"
+  },
+  "navigationStyle": "custom",
+  "disableScroll": true
+}

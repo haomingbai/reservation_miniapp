@@ -1,0 +1,35 @@
+<!--pages/privacyB/privacyB.wxml-->
+
+
+<view style="height: auto;width: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;">
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 32rpx;font-weight: 600;">欢迎使用考试报名系统</view>
+<text style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text1}}</text>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text2}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text3}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text4}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text5}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text6}}</view>
+<text style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text7}}</text>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text8}}</view>
+<text style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text9}}</text>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text10}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text11}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text12}}</view>
+<text style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text13}}</text>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text14}}</view>
+<text style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text15}}</text>
+<!-- <view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text16}}</view>
+<text style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text17}}</text>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text18}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text19}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text20}}</view>
+<text style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text21}}</text>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text22}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text23}}</view> -->
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text24}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text25}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text26}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text27}}</view>
+<view style="width:90%;line-height:54rpx;color: black;margin-top: 3vh;font-size: 27rpx;font-weight: 600;">{{text28}}</view>
+<view style="height: 10vh;"></view>
+</view>

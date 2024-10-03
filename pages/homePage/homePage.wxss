@@ -1,0 +1,28 @@
+.selectMonth{
+  color: #857efd;
+  background-color: #eaecfe;
+}
+
+.selectDay{
+  color: white!important;
+  background-color: #0a12f9d3;
+  overflow: hidden;
+}
+
+/* 确保 scroll-view 的父容器相对定位，方便定位伪元素 */
+.scroll-border {
+  position: relative; /* 使伪元素的定位相对于 scroll-view */
+}
+
+.scroll-border::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 5rpx; /* 设置边框宽度 */
+  background: linear-gradient(to bottom, rgba(128, 128, 128, 0.1), rgba(128, 128, 128, 0.3), rgba(128, 128, 128, 0.1)); /* 从上到下的灰色渐变 */
+  z-index: 10; /* 确保伪元素显示在最上层 */
+  pointer-events: none; /* 确保伪元素不阻挡点击事件 */
+}
+

@@ -1,6 +1,10 @@
 // const { noneParamsEaseFuncs } = require("XrFrame/xrFrameSystem");
-
 // pages/uisLogin/uisLogin.js
+
+import "weapp-cookie"
+
+// 明天删掉cookie相关代码，由npm包保管
+
 Page({
 
   /**
@@ -40,6 +44,7 @@ Page({
               this.setData({
                 sessionCookie: res.header["Set-Cookie"]
               })
+              console.log(this.data.sessionCookie);
             }
 
             if (res.statusCode == 200) {
@@ -55,7 +60,6 @@ Page({
                     method: "POST",
                     data: null,
                     header: {
-                      'Content-Type': 'application/json',
                       'Cookie': this.data.sessionCookie
                     },
                     success: res => {
@@ -63,8 +67,9 @@ Page({
                         this.setData({
                           sessionCookie: res.header["Set-Cookie"]
                         })
+                        console.log(this.data.sessionCookie);
                       }
-                      // console.log(res.data.data.qrCode.status);
+                      // console.log(res);
                       const data = res.data.data;
                       if (this.data.checkQr && res.data.code == 1) {
                         console.log("二维码过期", res);
@@ -80,7 +85,7 @@ Page({
                       } else if (data.qrCode.status == '3') { // 登录状态
                         const appToken = data.qrCode.apptoken;
                         const stateKey = data.stateKey;
-                        console.log(stateKey);
+                        // console.log(stateKey);
                         wx.request({
                           url: 'https://uis.nwpu.edu.cn/cas/login',
                           data: {
@@ -89,19 +94,18 @@ Page({
                           },
                           redirect: "manual",
                           header: {
-                            'Content-Type': 'application/json',
                             'Cookie': this.data.sessionCookie
                           },
                           success: res => {
 
                             if (res.header["Set-Cookie"]) {
                               this.setData({
-                                sessionCookie: res.header["Set-Cookie"],
+                                sessionCookie: this.data.sessionCookie + ";" +res.header["Set-Cookie"],
                                 checkQr: false
                               });
+                              console.log(this.data.sessionCookie);
                             }
 
-                            // console.log(res.statusCode);
                             console.log(res);
 
                             if (res.statusCode != 302) {
@@ -113,21 +117,24 @@ Page({
                                 wx.navigateBack();
                               })
                             } else {
+                              console.log(res.header.Location);
                               wx.request({
                                 url: res.header.Location,
                                 redirect: "manual",
                                 header: {
-                                  'Content-Type': 'application/json',
                                   'Cookie': this.data.sessionCookie
                                 },
                                 success: res => {
+                                  /*
                                   if (res.header["Set-Cookie"]) {
                                     this.setData({
                                       sessionCookie: res.header["Set-Cookie"],
-                                      checkQr: false
+                                      // checkQr: false
                                     });
+                                    // console.log(this.data.sessionCookie); // 打印cookie
                                   }
-                                  console.log(res);
+                                  */
+                                  console.log(res); // 打印结果
                                   if (res.statusCode != 302) {
                                     console.log("登陆失败[2]");
                                     wx.showToast({
@@ -137,32 +144,62 @@ Page({
                                       wx.navigateBack();
                                     })
                                   } else {
+                                    console.log(res.header.Location);
                                     wx.request({
                                       url: res.header.Location,
                                       redirect: 'manual',
+                                      header: {
+                                        'Cookie': this.data.sessionCookie
+                                      },
                                       success: res => {
                                         if (res.header["Set-Cookie"]) {
                                           this.setData({
-                                            sessionCookie: res.header["Set-Cookie"],
+                                            sessionCookie: this.data.sessionCookie + ";" + res.header["Set-Cookie"],
                                             checkQr: false
                                           });
+                                          // console.log(this.data.sessionCookie);
                                         }
-                                        console.log(res);
+
+                                        console.log(res); // 打印结果
+                                        console.log(this.data.sessionCookie); // 打印一下cookie
                                         if (res.statusCode != 302) {
-                                          console.log("登陆失败[2]");
+                                          console.log("登陆失败[3]");
                                           wx.showToast({
                                             title: '登录失败',
                                             icon: 'error',
                                           }).then(() => {
                                             wx.navigateBack();
                                           })
-                                        } else {} // 我昨天晚上写到这里
+                                        } else { // 从这个else之后，就算是登录成功了
+                                          console.log(res.header.Location);
+                                          wx.request({
+                                            url: 'https://jwxt.nwpu.edu.cn/student/for-std/student-portrait/getStdInfo?bizTypeAssoc=2&cultivateTypeAssoc=1',
+                                            header: {
+                                              'Cookie': this.data.sessionCookie
+                                            },
+                                            success: res => {
+                                              console.log("suc", res);
+                                              clearInterval(this.data.inter);
+                                            },
+                                            fail: err => {
+                                              console.log("err", err);
+                                              wx.showToast({
+                                                title: '网络错误',
+                                                icon: 'error',
+                                              }).then(() => {
+                                                wx.navigateBack();
+                                              })
+                                            }
+                                          })
+                                        }
                                       },
                                       fail: err => {
                                         console.log("err", err);
                                         wx.showToast({
                                           title: '登陆失败',
                                           icon: 'error'
+                                        }).then(() => {
+                                          wx.navigateBack();
                                         })
                                       }
                                     })
@@ -173,6 +210,8 @@ Page({
                                   wx.showToast({
                                     title: '登陆失败',
                                     icon: 'error'
+                                  }).then(() => {
+                                    wx.navigateBack();
                                   })
                                 }
                               })
@@ -183,6 +222,8 @@ Page({
                             wx.showToast({
                               title: '登陆失败',
                               icon: 'error'
+                            }).then(() => {
+                              wx.navigateBack();
                             })
                           }
                         })
@@ -206,6 +247,8 @@ Page({
               wx.showToast({
                 title: '接口错误',
                 icon: "error",
+              }).then(() => {
+                wx.navigateBack();
               })
             }
           },

@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "weapp-cookie": "^1.4.8"
+  },
+  "name": "reserve-miniprogram",
+  "version": "1.0.0",
+  "description": "这是泥瓜考试报名小程序的第二版",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

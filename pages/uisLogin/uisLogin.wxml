@@ -1,4 +1,32 @@
 <!--pages/uisLogin/uisLogin.wxml-->
-<text>pages/uisLogin/uisLogin.wxml</text>
+<!--<text>pages/uisLogin/uisLogin.wxml</text>
 <image src="{{qrUrl}}"></image>
-<button bind:tap="testButton"></button>
+<button bind:tap="testButton"></button>-->
+
+<view class="page bg-white">
+  <!-- 设置整个页面背景为白色 -->
+  <!-- 图片居中展示 -->
+  <view class="text-center margin-top-lg">
+    <image class="radius shadow-lg image" src="{{qrUrl}}" mode="aspectFit"></image>
+  </view>
+
+  <!-- 图片和进度条之间的文字内容，增加间距 -->
+  <view class="text-center margin-top-xxl">
+    <!-- 使用 margin-top-xl 增加文字和进度条之间的距离 -->
+    <text class="text-xl text-grey">{{instruction}}</text>
+  </view>
+
+  <!-- 进度条，调整其位置使其更加独立 -->
+  <view class="progress-container margin-top-xxl">
+    <view class="progress">
+
+      <view class="progress-active bg-blue" style="width: {{progress}};"></view> <!-- 动态进度条 -->
+    </view>
+  </view>
+
+  <!-- 图片和进度条之间的文字内容，增加间距 -->
+  <view class="text-center margin-top-xl">
+    <!-- 使用 margin-top-xl 增加文字和进度条之间的距离 -->
+    <text class="text-df text-grey">推荐在个人电脑上登录小程序，然后使用西北工业大学App扫码登录，如果没有电脑且不可在计算机实验室/图书馆上机，可以截图后切换程序至后台，并使用西北工业大学App扫码登录。当完成或出现异常时，页面会给出提示或自动退出。</text>
+  </view>
+</view>

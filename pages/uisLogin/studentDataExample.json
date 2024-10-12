@@ -1,0 +1,3492 @@
+{
+  "defaultAvatar": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAgMAAACJFjxpAAAADFBMVEXFxcX////p6enW1tbAmiBwAAAFiElEQVR4AezAgQAAAACAoP2pF6kAAAAAAAAAAAAAAIDbu2MkvY0jiuMWWQoUmI50BB+BgRTpCAz4G6C8CJDrC3AEXGKPoMTlYA/gAJfwETawI8cuBs5Nk2KtvfiLW+gLfK9m+r3X82G653+JP/zjF8afP1S//y+An4/i51//AsB4aH+/QPD6EQAY/zwZwN8BAP50bh786KP4+VT+3fs4/noigEc+jnHeJrzxX+NWMDDh4g8+EXcnLcC9T8U5S/CdT8bcUeBEIrwBOiI8ki7Ba5+NrePgWUy89/nYyxQ8Iw3f+pWY4h1gb3eAW7sDTPEOsLc7wK1TIeDuDB+I/OA1QOUHv/dFsZQkhKkh4QlEfOULYz2nGj2/Nn1LmwR/86VxlCoAW6kCsHRGANx1RgCMo5Qh2EsZgrXNQZZShp5Liv7Il8eIc5C91EHY2hxk6bwYmNscZIReDBwtCdhbErC1JGBpScBcOgFMLQsZMQs5Whayd+UQsLYsZGlZyNyykKllISNmIUfAwifw8NXvTojAjGFrdYi11SGWVoeYWx1i6lmQCiEjFkKOVgjZ+xxIhZCtFULWHkCqxCw9gNQKmP9vNHzipdEPrRcxtVbAeDkAvve0iM2QozVD9hfjhp4YP/UrkJYDbD2AtBxgfSkAvvHEeNcDSAsilgtAWxIy91J8AXgZAJ5e33+4tuACcAG4AFwALgBXRXQB6AFcB5MXAuA6nl9/0Vx/011/1V5/1/dfTPJvRtdnu/zL6beeFO/7r+fXBYbrEkt/j+i6ytXfpuvvE/ZXOnsA/a3a/l5xf7O6v1t+Xe/vOyz6HpO8yyboM8o7rfJes77bru83THk48p7TvOs27zvOO6/73vO++z7l4cgnMPQzKPopHC0N9noSSz6LJp/Gk88jyicy5TOp6qlc+VyyfDJbPpuuns6XzyfMJzTmMyrrKZ35nNJ8Ums+q7af1tvPK+4nNodEnPKp3fnc8npyez67/qVP7+/fL8hfcMjfsOhf8cjfMclfcnn9+BkOnLECP8Q58OYeyJ40eoyF6Ee/En/JHlP6mIlRVXprF4BxtAvArV0AxtEuALd2ARhHuwDc2gVgHPX/hFv9fMBddjIGeKg/WCxlCsI46u+Ga5mCcJd+sIG9UkGAW32ZbApFAHhod4Bb3eo04h3god0BbiUHYApVCNjbHeBW+QDAXT4a7qg7r7e214057vg0QhkEHkoSwq0kIdydXw4/Q3H8hjYJ3vL0WConBJhCHQaOToeBrU0BljYFmEoVgHGUKgAPnREAt84IgLuqFgAYSUEOAHszDwuAtSkHAZhLGYIpdCLgKGUIHtocZG1zkLmUIRhxDnJU1RDA1uYga5uDzKUOwhTnIEfnxcDe5iBrcyQAYGlzkKkUYhhxDrKXQgxbSwLWUohhbknA1JKAEZOAvSUBW0sC1pYEzC0JmFoSMMJyCDhaFrK3JGDtyiFgaVnI3LKQqWUhI2YhR8tC9paFrC0LWVoWMrcsZGpZyIhZyNGykL2rSIGtlQHWVgZYWhlgbmWAqZUBRiwDHK0MsLcywNbKAGsOoNUhllaHmFsdYmp1iBHrEEerQ+w5gFYI2VodYm11iKXVIeYcQCuETK0QMmIh5MgBtELI3gohWyuErDmAVolZWiFkzgG0SszUKjGjfj6gVmKOVonZcwCtFbB9HQC+ozWDbz1bvGu9iKW1AuYcQOtFTLEX1GbIaFegN0OOHEBrhuw5gNYM2XIArRuz5gDacoB3bTnAEktxXQ4wfw0AvveM8b4tiJjSJOwLIsbXsAKeNeKCiOO3D+AVbUl0AfjGs8ZPbUnIdgFoa1LWC0BblfMuB9AeC1j6gqQE0J9LmC8AOYD2ZMb7i4bt2ZTpWoHfPoB7Tj2fXzT8N1X41vkq/QHOAAAAAElFTkSuQmCC",
+  "student": {
+      "id": 282527,
+      "studentRecordType": null,
+      "code": "2023301350",
+      "grade": "2023",
+      "hasXueJi": true,
+      "inSchool": true,
+      "zaiJi": true,
+      "needRegister": true,
+      "studyYears": 4,
+      "enterSchoolDate": "2023-08-07",
+      "aboardStudentRegisterCode": null,
+      "aboardScholarshipCode": null,
+      "enterSchoolGrade": 2023,
+      "retirement": false,
+      "retakeTag": null,
+      "attendTag": null,
+      "researchDirection": null,
+      "predictEnterDate": null,
+      "alterationDateTime": null,
+      "person": {
+          "id": 251522,
+          "nameZh": "白昊明",
+          "nameEn": "Bai Hao Ming",
+          "idCardNumber": "",
+          "country": {
+              "nameZh": "中国",
+              "nameEn": "CHINA",
+              "id": 486,
+              "code": "A156",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "中国"
+          },
+          "contactInfo": {
+              "email": null,
+              "telephone": null,
+              "mobile": "",
+              "address": null,
+              "postcode": null,
+              "qq": null,
+              "wechat": null,
+              "emergencyContact": null,
+              "emergencyPhone": null,
+              "dormAddress": null,
+              "dormPhone": null
+          },
+          "family": {
+              "id": null,
+              "nameZh": null,
+              "nameEn": null,
+              "personAssoc": 251522,
+              "contactInfo": {
+                  "email": null,
+                  "telephone": null,
+                  "mobile": null,
+                  "address": "",
+                  "postcode": "201111",
+                  "qq": null,
+                  "wechat": null,
+                  "emergencyContact": null,
+                  "emergencyPhone": null,
+                  "dormAddress": null,
+                  "dormPhone": null
+              },
+              "members": []
+          },
+          "portrait": null,
+          "gender": {
+              "nameZh": "男",
+              "nameEn": "Male",
+              "id": 1,
+              "code": "1",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "男"
+          },
+          "idCardType": {
+              "nameZh": "中华人民共和国居民身份证",
+              "nameEn": "Chinese ID CARD",
+              "id": 1,
+              "code": "01",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "中华人民共和国居民身份证"
+          },
+          "birthday": "2004-08-25",
+          "nation": {
+              "nameZh": "汉族",
+              "nameEn": "Han",
+              "id": 108,
+              "code": "01",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "汉族"
+          },
+          "politicalVisage": {
+              "nameZh": "群众",
+              "nameEn": null,
+              "id": 71,
+              "code": "13",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "群众"
+          },
+          "age": 20,
+          "nativePlace": null,
+          "bank": null,
+          "bankAccount": null,
+          "trainStationChinaPlace": null,
+          "trainStation": null,
+          "healthStatus": null,
+          "joinPartyDatePlace": null,
+          "joinLeagueDatePlace": null,
+          "residence": null,
+          "residenceNature": null,
+          "formerName": null,
+          "namePinyin": null,
+          "birthPlace": null,
+          "remark": null,
+          "studyExperiences": [],
+          "workExperiences": [],
+          "maritalStatus": null,
+          "activeSoldier": null,
+          "countryType": null,
+          "backHomeNumber": null,
+          "ancestralHome": null,
+          "arrivalTime": null,
+          "permanentResident": false,
+          "religiousBelief": null,
+          "graduatedSchool": null,
+          "workCompany": null,
+          "specialistPositionLevel": null,
+          "leaderPositionLevel": null,
+          "stdLeaders": false,
+          "character": null,
+          "hobby": null,
+          "specialty": null,
+          "workExperience": null,
+          "volunteerExperience": null
+      },
+      "bizType": {
+          "id": 2,
+          "nameZh": "本研-教学",
+          "nameEn": "Undergraduate"
+      },
+      "mngtDepartment": {
+          "id": 40,
+          "nameZh": "软件学院",
+          "nameEn": "School of Software",
+          "code": "06410",
+          "abbrZh": "软件学院",
+          "abbrEn": null,
+          "college": true,
+          "research": false,
+          "openCourse": true,
+          "experiment": false,
+          "telephone": null,
+          "address": null,
+          "indexNo": 16,
+          "recruitTypeSet": [
+              "UNDERGRADUATE"
+          ],
+          "recruitTypes": "UNDERGRADUATE"
+      },
+      "education": {
+          "nameZh": "本科",
+          "nameEn": null,
+          "id": 1,
+          "code": "01",
+          "enabled": true,
+          "bizTypeAssocs": [
+              2
+          ],
+          "bizTypeIds": [
+              2
+          ],
+          "transient": false,
+          "name": "本科"
+      },
+      "stdType": {
+          "nameZh": "本科生",
+          "nameEn": null,
+          "id": 1,
+          "code": "001",
+          "enabled": true,
+          "bizTypeAssocs": [
+              2
+          ],
+          "bizTypeIds": [
+              2
+          ],
+          "transient": false,
+          "name": "本科生"
+      },
+      "department": {
+          "id": 40,
+          "nameZh": "软件学院",
+          "nameEn": "School of Software",
+          "code": "06410",
+          "abbrZh": "软件学院",
+          "abbrEn": null,
+          "college": true,
+          "research": false,
+          "openCourse": true,
+          "experiment": false,
+          "telephone": null,
+          "address": null,
+          "indexNo": 16,
+          "recruitTypeSet": [
+              "UNDERGRADUATE"
+          ],
+          "recruitTypes": "UNDERGRADUATE"
+      },
+      "major": {
+          "id": 79,
+          "nameZh": "软件工程",
+          "nameEn": "Software Engineering",
+          "code": "1401",
+          "abbrZh": null,
+          "abbrEn": null,
+          "parent": false,
+          "studyYears": 4,
+          "majorCertificate": null,
+          "parentMajorAssocs": [],
+          "childMajorAssocs": []
+      },
+      "majorDirection": null,
+      "adminclass": {
+          "id": 6206,
+          "nameZh": "14012303",
+          "nameEn": "14012303",
+          "code": "14012303",
+          "grade": "2023",
+          "stdCount": 29,
+          "planCount": 30,
+          "enabled": true,
+          "abbrZh": null,
+          "abbrEn": null,
+          "remark": null
+      },
+      "campus": {
+          "id": 3,
+          "nameZh": "长安校区",
+          "nameEn": "Chang'an Campus",
+          "code": "02",
+          "enabled": true
+      },
+      "stdStatus": {
+          "nameZh": "在籍在校",
+          "nameEn": null,
+          "id": 1,
+          "code": "01",
+          "enabled": true,
+          "bizTypeAssocs": [
+              2
+          ],
+          "bizTypeIds": [
+              2
+          ],
+          "transient": false,
+          "name": "在籍在校"
+      },
+      "program": {
+          "id": 18757,
+          "nameZh": "2023级信息类（软件工程）",
+          "nameEn": null,
+          "grade": "2023",
+          "type": "MAJOR",
+          "enabled": true,
+          "auditState": "ACCEPTED",
+          "currentNode": "流程已结束"
+      },
+      "studyForm": {
+          "nameZh": "普通全日制",
+          "nameEn": null,
+          "id": 1,
+          "code": "01",
+          "enabled": true,
+          "bizTypeAssocs": [
+              2
+          ],
+          "bizTypeIds": [
+              2
+          ],
+          "transient": false,
+          "name": "普通全日制"
+      },
+      "studyMethod": null,
+      "attackStudyType": null,
+      "aboardCultivateMethod": null,
+      "feeType": null,
+      "aboardStdType": null,
+      "portraitFileInfo": {
+          "id": 562375,
+          "name": "2023301350.jpg",
+          "key": "10e78d8e-fc59-4299-a937-9ab7f0b2da10",
+          "mimeType": "image/jpeg",
+          "bytes": 73498,
+          "createDateTime": "2024-03-25",
+          "updateDateTime": "2024-03-25",
+          "sizeOfMb": 35,
+          "sizeOfKb": 71
+      },
+      "cultivateType": {
+          "nameZh": "主修",
+          "nameEn": "Major",
+          "id": 1,
+          "code": "01",
+          "enabled": true,
+          "bizTypeAssocs": [
+              2
+          ],
+          "bizTypeIds": [
+              2
+          ],
+          "transient": false,
+          "name": "主修"
+      },
+      "tags": null,
+      "graduate": {
+          "id": 79098,
+          "expectedGraduateDate": "2027-07-10",
+          "graduateDate": null,
+          "result": null,
+          "certificateCode": null,
+          "remark": null,
+          "needAudit": true,
+          "deadlineDate": null,
+          "principalName": null,
+          "principalNameEn": null,
+          "deliveryDate": null,
+          "college": null,
+          "collegeEn": null,
+          "major": null,
+          "majorEn": null,
+          "school": null,
+          "schoolEn": null,
+          "schoolCode": null,
+          "afterGraduateDir": null,
+          "confirmCompanyName": null,
+          "student": {
+              "id": 282527,
+              "studentRecordType": null,
+              "code": "2023301350",
+              "grade": "2023",
+              "hasXueJi": true,
+              "inSchool": true,
+              "zaiJi": true,
+              "needRegister": true,
+              "studyYears": 4,
+              "enterSchoolDate": "2023-08-07",
+              "aboardStudentRegisterCode": null,
+              "aboardScholarshipCode": null,
+              "enterSchoolGrade": 2023,
+              "retirement": false,
+              "retakeTag": null,
+              "attendTag": null,
+              "researchDirection": null,
+              "predictEnterDate": null,
+              "alterationDateTime": null
+          },
+          "portraitFileInfo": null
+      },
+      "regPortraitFileInfo": null,
+      "instructors": [
+          {
+              "id": null,
+              "nameZh": null,
+              "nameEn": null,
+              "instructors": [
+                  {
+                      "instructor": {
+                          "id": 31522292,
+                          "code": "2022080422",
+                          "teaching": true,
+                          "zaiZhi": true,
+                          "hireType": "FORMAL",
+                          "researchDirection": null,
+                          "belongSeries": null,
+                          "nameZh": null,
+                          "person": {
+                              "id": 162698,
+                              "nameZh": "庞媛",
+                              "nameEn": "庞媛"
+                          },
+                          "department": {
+                              "id": 40,
+                              "nameZh": "软件学院",
+                              "nameEn": "School of Software",
+                              "code": "06410",
+                              "abbrZh": "软件学院",
+                              "abbrEn": null,
+                              "college": true,
+                              "research": false,
+                              "openCourse": true,
+                              "experiment": false,
+                              "telephone": null,
+                              "address": null,
+                              "indexNo": 16,
+                              "recruitTypeSet": [
+                                  "UNDERGRADUATE"
+                              ],
+                              "recruitTypes": "UNDERGRADUATE"
+                          },
+                          "title": null,
+                          "type": {
+                              "nameZh": "全职",
+                              "nameEn": null,
+                              "id": 1,
+                              "code": "01",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "全职"
+                          }
+                      },
+                      "orderNumber": 1
+                  }
+              ],
+              "instructorType": {
+                  "nameZh": "辅导员",
+                  "nameEn": "instructor",
+                  "id": 1,
+                  "code": "01",
+                  "enabled": true,
+                  "bizTypeAssocs": [
+                      2
+                  ],
+                  "bizTypeIds": [
+                      2
+                  ],
+                  "transient": false,
+                  "name": "辅导员"
+              },
+              "studentId": null
+          },
+          {
+              "id": null,
+              "nameZh": null,
+              "nameEn": null,
+              "instructors": [
+                  {
+                      "instructor": {
+                          "id": 7951,
+                          "code": "2003000034",
+                          "teaching": true,
+                          "zaiZhi": true,
+                          "hireType": "FORMAL",
+                          "researchDirection": null,
+                          "belongSeries": null,
+                          "nameZh": null,
+                          "person": {
+                              "id": 14464,
+                              "nameZh": "张凯龙",
+                              "nameEn": "kailongzhang"
+                          },
+                          "department": {
+                              "id": 40,
+                              "nameZh": "软件学院",
+                              "nameEn": "School of Software",
+                              "code": "06410",
+                              "abbrZh": "软件学院",
+                              "abbrEn": null,
+                              "college": true,
+                              "research": false,
+                              "openCourse": true,
+                              "experiment": false,
+                              "telephone": null,
+                              "address": null,
+                              "indexNo": 16,
+                              "recruitTypeSet": [
+                                  "UNDERGRADUATE"
+                              ],
+                              "recruitTypes": "UNDERGRADUATE"
+                          },
+                          "title": {
+                              "nameZh": "教授",
+                              "nameEn": null,
+                              "id": 1083,
+                              "code": "011",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "specialistPositionLevelAssoc": null,
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "教授"
+                          },
+                          "type": {
+                              "nameZh": "全职",
+                              "nameEn": null,
+                              "id": 1,
+                              "code": "01",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "全职"
+                          }
+                      },
+                      "orderNumber": 1
+                  }
+              ],
+              "instructorType": {
+                  "nameZh": "班主任",
+                  "nameEn": "班主任",
+                  "id": 2,
+                  "code": "02",
+                  "enabled": true,
+                  "bizTypeAssocs": [
+                      2
+                  ],
+                  "bizTypeIds": [
+                      2
+                  ],
+                  "transient": false,
+                  "name": "班主任"
+              },
+              "studentId": null
+          }
+      ],
+      "plaType": null,
+      "firstTutor": null,
+      "secondTutor": null,
+      "disciplineCategory": null,
+      "firstDiscipline": null,
+      "secondDiscipline": null,
+      "studentGraduateInfo": {
+          "id": 79098,
+          "expectedGraduateDate": "2027-07-10",
+          "graduateDate": null,
+          "result": null,
+          "certificateCode": null,
+          "remark": null,
+          "needAudit": true,
+          "deadlineDate": null,
+          "principalName": null,
+          "principalNameEn": null,
+          "deliveryDate": null,
+          "college": null,
+          "collegeEn": null,
+          "major": null,
+          "majorEn": null,
+          "school": null,
+          "schoolEn": null,
+          "schoolCode": null,
+          "afterGraduateDir": null,
+          "confirmCompanyName": null
+      }
+  },
+  "recruitInfo": {
+      "id": 215275,
+      "examineeNo": "23310112011964",
+      "majorName": null,
+      "studyYears": 4,
+      "enrollDate": null,
+      "enrollBatch": "07231612-35",
+      "choiceNumber": null,
+      "score": null,
+      "remark": null,
+      "enrollPlanTypeCode": null,
+      "trainSpecialPlan": null,
+      "highStudentCategory": null,
+      "statProfCode": null,
+      "statProfName": null,
+      "orientationUnit": null,
+      "orientationLocat": null,
+      "fileUnit": null,
+      "examShip": null,
+      "employer": null,
+      "examineeSpeciality": null,
+      "extraScore": null,
+      "scoreDetailStr": "",
+      "recruitSchool": null,
+      "recruitClass": null,
+      "admissionLetterNumber": null,
+      "recruitYear": null,
+      "graduateCollege": null,
+      "examId": null,
+      "scoreDetail": {},
+      "student": {
+          "id": 282527,
+          "studentRecordType": null,
+          "code": "2023301350",
+          "grade": "2023",
+          "hasXueJi": true,
+          "inSchool": true,
+          "zaiJi": true,
+          "needRegister": true,
+          "studyYears": 4,
+          "enterSchoolDate": "2023-08-07",
+          "aboardStudentRegisterCode": null,
+          "aboardScholarshipCode": null,
+          "enterSchoolGrade": 2023,
+          "retirement": false,
+          "retakeTag": null,
+          "attendTag": null,
+          "researchDirection": null,
+          "predictEnterDate": null,
+          "alterationDateTime": null,
+          "person": {
+              "id": 251522,
+              "nameZh": "白昊明",
+              "nameEn": "Bai Hao Ming",
+              "idCardNumber": "",
+              "country": {
+                  "nameZh": "中国",
+                  "nameEn": "CHINA",
+                  "id": 486,
+                  "code": "A156",
+                  "enabled": true,
+                  "bizTypeAssocs": [
+                      2
+                  ],
+                  "bizTypeIds": [
+                      2
+                  ],
+                  "transient": false,
+                  "name": "中国"
+              },
+              "contactInfo": {
+                  "email": null,
+                  "telephone": null,
+                  "mobile": "",
+                  "address": null,
+                  "postcode": null,
+                  "qq": null,
+                  "wechat": null,
+                  "emergencyContact": null,
+                  "emergencyPhone": null,
+                  "dormAddress": null,
+                  "dormPhone": null
+              },
+              "family": {
+                  "id": null,
+                  "nameZh": null,
+                  "nameEn": null,
+                  "personAssoc": 251522,
+                  "contactInfo": {
+                      "email": null,
+                      "telephone": null,
+                      "mobile": null,
+                      "address": "",
+                      "postcode": "201111",
+                      "qq": null,
+                      "wechat": null,
+                      "emergencyContact": null,
+                      "emergencyPhone": null,
+                      "dormAddress": null,
+                      "dormPhone": null
+                  },
+                  "members": []
+              },
+              "portrait": null,
+              "gender": {
+                  "nameZh": "男",
+                  "nameEn": "Male",
+                  "id": 1,
+                  "code": "1",
+                  "enabled": true,
+                  "bizTypeAssocs": [
+                      2
+                  ],
+                  "bizTypeIds": [
+                      2
+                  ],
+                  "transient": false,
+                  "name": "男"
+              },
+              "idCardType": {
+                  "nameZh": "中华人民共和国居民身份证",
+                  "nameEn": "Chinese ID CARD",
+                  "id": 1,
+                  "code": "01",
+                  "enabled": true,
+                  "bizTypeAssocs": [
+                      2
+                  ],
+                  "bizTypeIds": [
+                      2
+                  ],
+                  "transient": false,
+                  "name": "中华人民共和国居民身份证"
+              },
+              "birthday": "2004-08-25",
+              "nation": {
+                  "nameZh": "汉族",
+                  "nameEn": "Han",
+                  "id": 108,
+                  "code": "01",
+                  "enabled": true,
+                  "bizTypeAssocs": [
+                      2
+                  ],
+                  "bizTypeIds": [
+                      2
+                  ],
+                  "transient": false,
+                  "name": "汉族"
+              },
+              "politicalVisage": {
+                  "nameZh": "群众",
+                  "nameEn": null,
+                  "id": 71,
+                  "code": "13",
+                  "enabled": true,
+                  "bizTypeAssocs": [
+                      2
+                  ],
+                  "bizTypeIds": [
+                      2
+                  ],
+                  "transient": false,
+                  "name": "群众"
+              },
+              "age": 20,
+              "nativePlace": null,
+              "bank": null,
+              "bankAccount": null,
+              "trainStationChinaPlace": null,
+              "trainStation": null,
+              "healthStatus": null,
+              "joinPartyDatePlace": null,
+              "joinLeagueDatePlace": null,
+              "residence": null,
+              "residenceNature": null,
+              "formerName": null,
+              "namePinyin": null,
+              "birthPlace": null,
+              "remark": null,
+              "studyExperiences": [],
+              "workExperiences": [],
+              "maritalStatus": null,
+              "activeSoldier": null,
+              "countryType": null,
+              "backHomeNumber": null,
+              "ancestralHome": null,
+              "arrivalTime": null,
+              "permanentResident": false,
+              "religiousBelief": null,
+              "graduatedSchool": null,
+              "workCompany": null,
+              "specialistPositionLevel": null,
+              "leaderPositionLevel": null,
+              "stdLeaders": false,
+              "character": null,
+              "hobby": null,
+              "specialty": null,
+              "workExperience": null,
+              "volunteerExperience": null
+          },
+          "bizType": {
+              "id": 2,
+              "nameZh": "本研-教学",
+              "nameEn": "Undergraduate"
+          },
+          "mngtDepartment": {
+              "id": 40,
+              "nameZh": "软件学院",
+              "nameEn": "School of Software",
+              "code": "06410",
+              "abbrZh": "软件学院",
+              "abbrEn": null,
+              "college": true,
+              "research": false,
+              "openCourse": true,
+              "experiment": false,
+              "telephone": null,
+              "address": null,
+              "indexNo": 16,
+              "recruitTypeSet": [
+                  "UNDERGRADUATE"
+              ],
+              "recruitTypes": "UNDERGRADUATE"
+          },
+          "education": {
+              "nameZh": "本科",
+              "nameEn": null,
+              "id": 1,
+              "code": "01",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "本科"
+          },
+          "stdType": {
+              "nameZh": "本科生",
+              "nameEn": null,
+              "id": 1,
+              "code": "001",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "本科生"
+          },
+          "department": {
+              "id": 40,
+              "nameZh": "软件学院",
+              "nameEn": "School of Software",
+              "code": "06410",
+              "abbrZh": "软件学院",
+              "abbrEn": null,
+              "college": true,
+              "research": false,
+              "openCourse": true,
+              "experiment": false,
+              "telephone": null,
+              "address": null,
+              "indexNo": 16,
+              "recruitTypeSet": [
+                  "UNDERGRADUATE"
+              ],
+              "recruitTypes": "UNDERGRADUATE"
+          },
+          "major": {
+              "id": 79,
+              "nameZh": "软件工程",
+              "nameEn": "Software Engineering",
+              "code": "1401",
+              "abbrZh": null,
+              "abbrEn": null,
+              "parent": false,
+              "studyYears": 4,
+              "majorCertificate": null,
+              "parentMajorAssocs": [],
+              "childMajorAssocs": []
+          },
+          "majorDirection": null,
+          "adminclass": {
+              "id": 6206,
+              "nameZh": "14012303",
+              "nameEn": "14012303",
+              "code": "14012303",
+              "grade": "2023",
+              "stdCount": 29,
+              "planCount": 30,
+              "enabled": true,
+              "abbrZh": null,
+              "abbrEn": null,
+              "remark": null
+          },
+          "campus": {
+              "id": 3,
+              "nameZh": "长安校区",
+              "nameEn": "Chang'an Campus",
+              "code": "02",
+              "enabled": true
+          },
+          "stdStatus": {
+              "nameZh": "在籍在校",
+              "nameEn": null,
+              "id": 1,
+              "code": "01",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "在籍在校"
+          },
+          "program": {
+              "id": 18757,
+              "nameZh": "2023级信息类（软件工程）",
+              "nameEn": null,
+              "grade": "2023",
+              "type": "MAJOR",
+              "enabled": true,
+              "auditState": "ACCEPTED",
+              "currentNode": "流程已结束"
+          },
+          "studyForm": {
+              "nameZh": "普通全日制",
+              "nameEn": null,
+              "id": 1,
+              "code": "01",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "普通全日制"
+          },
+          "studyMethod": null,
+          "attackStudyType": null,
+          "aboardCultivateMethod": null,
+          "feeType": null,
+          "aboardStdType": null,
+          "portraitFileInfo": {
+              "id": 562375,
+              "name": "2023301350.jpg",
+              "key": "10e78d8e-fc59-4299-a937-9ab7f0b2da10",
+              "mimeType": "image/jpeg",
+              "bytes": 73498,
+              "createDateTime": "2024-03-25",
+              "updateDateTime": "2024-03-25",
+              "sizeOfMb": 35,
+              "sizeOfKb": 71
+          },
+          "cultivateType": {
+              "nameZh": "主修",
+              "nameEn": "Major",
+              "id": 1,
+              "code": "01",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "主修"
+          },
+          "tags": null,
+          "graduate": {
+              "id": 79098,
+              "expectedGraduateDate": "2027-07-10",
+              "graduateDate": null,
+              "result": null,
+              "certificateCode": null,
+              "remark": null,
+              "needAudit": true,
+              "deadlineDate": null,
+              "principalName": null,
+              "principalNameEn": null,
+              "deliveryDate": null,
+              "college": null,
+              "collegeEn": null,
+              "major": null,
+              "majorEn": null,
+              "school": null,
+              "schoolEn": null,
+              "schoolCode": null,
+              "afterGraduateDir": null,
+              "confirmCompanyName": null,
+              "student": {
+                  "id": 282527,
+                  "studentRecordType": null,
+                  "code": "2023301350",
+                  "grade": "2023",
+                  "hasXueJi": true,
+                  "inSchool": true,
+                  "zaiJi": true,
+                  "needRegister": true,
+                  "studyYears": 4,
+                  "enterSchoolDate": "2023-08-07",
+                  "aboardStudentRegisterCode": null,
+                  "aboardScholarshipCode": null,
+                  "enterSchoolGrade": 2023,
+                  "retirement": false,
+                  "retakeTag": null,
+                  "attendTag": null,
+                  "researchDirection": null,
+                  "predictEnterDate": null,
+                  "alterationDateTime": null
+              },
+              "portraitFileInfo": null
+          },
+          "regPortraitFileInfo": null,
+          "instructors": [
+              {
+                  "id": null,
+                  "nameZh": null,
+                  "nameEn": null,
+                  "instructors": [
+                      {
+                          "instructor": {
+                              "id": 31522292,
+                              "code": "2022080422",
+                              "teaching": true,
+                              "zaiZhi": true,
+                              "hireType": "FORMAL",
+                              "researchDirection": null,
+                              "belongSeries": null,
+                              "nameZh": null,
+                              "person": {
+                                  "id": 162698,
+                                  "nameZh": "庞媛",
+                                  "nameEn": "庞媛"
+                              },
+                              "department": {
+                                  "id": 40,
+                                  "nameZh": "软件学院",
+                                  "nameEn": "School of Software",
+                                  "code": "06410",
+                                  "abbrZh": "软件学院",
+                                  "abbrEn": null,
+                                  "college": true,
+                                  "research": false,
+                                  "openCourse": true,
+                                  "experiment": false,
+                                  "telephone": null,
+                                  "address": null,
+                                  "indexNo": 16,
+                                  "recruitTypeSet": [
+                                      "UNDERGRADUATE"
+                                  ],
+                                  "recruitTypes": "UNDERGRADUATE"
+                              },
+                              "title": null,
+                              "type": {
+                                  "nameZh": "全职",
+                                  "nameEn": null,
+                                  "id": 1,
+                                  "code": "01",
+                                  "enabled": true,
+                                  "bizTypeAssocs": [
+                                      2
+                                  ],
+                                  "bizTypeIds": [
+                                      2
+                                  ],
+                                  "transient": false,
+                                  "name": "全职"
+                              }
+                          },
+                          "orderNumber": 1
+                      }
+                  ],
+                  "instructorType": {
+                      "nameZh": "辅导员",
+                      "nameEn": "instructor",
+                      "id": 1,
+                      "code": "01",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "辅导员"
+                  },
+                  "studentId": null
+              },
+              {
+                  "id": null,
+                  "nameZh": null,
+                  "nameEn": null,
+                  "instructors": [
+                      {
+                          "instructor": {
+                              "id": 7951,
+                              "code": "2003000034",
+                              "teaching": true,
+                              "zaiZhi": true,
+                              "hireType": "FORMAL",
+                              "researchDirection": null,
+                              "belongSeries": null,
+                              "nameZh": null,
+                              "person": {
+                                  "id": 14464,
+                                  "nameZh": "张凯龙",
+                                  "nameEn": "kailongzhang"
+                              },
+                              "department": {
+                                  "id": 40,
+                                  "nameZh": "软件学院",
+                                  "nameEn": "School of Software",
+                                  "code": "06410",
+                                  "abbrZh": "软件学院",
+                                  "abbrEn": null,
+                                  "college": true,
+                                  "research": false,
+                                  "openCourse": true,
+                                  "experiment": false,
+                                  "telephone": null,
+                                  "address": null,
+                                  "indexNo": 16,
+                                  "recruitTypeSet": [
+                                      "UNDERGRADUATE"
+                                  ],
+                                  "recruitTypes": "UNDERGRADUATE"
+                              },
+                              "title": {
+                                  "nameZh": "教授",
+                                  "nameEn": null,
+                                  "id": 1083,
+                                  "code": "011",
+                                  "enabled": true,
+                                  "bizTypeAssocs": [
+                                      2
+                                  ],
+                                  "specialistPositionLevelAssoc": null,
+                                  "bizTypeIds": [
+                                      2
+                                  ],
+                                  "transient": false,
+                                  "name": "教授"
+                              },
+                              "type": {
+                                  "nameZh": "全职",
+                                  "nameEn": null,
+                                  "id": 1,
+                                  "code": "01",
+                                  "enabled": true,
+                                  "bizTypeAssocs": [
+                                      2
+                                  ],
+                                  "bizTypeIds": [
+                                      2
+                                  ],
+                                  "transient": false,
+                                  "name": "全职"
+                              }
+                          },
+                          "orderNumber": 1
+                      }
+                  ],
+                  "instructorType": {
+                      "nameZh": "班主任",
+                      "nameEn": "班主任",
+                      "id": 2,
+                      "code": "02",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "班主任"
+                  },
+                  "studentId": null
+              }
+          ],
+          "plaType": null,
+          "firstTutor": null,
+          "secondTutor": null,
+          "disciplineCategory": null,
+          "firstDiscipline": null,
+          "secondDiscipline": null
+      },
+      "selfChinaSchool": null,
+      "studyForm": null,
+      "enrollType": null,
+      "enterSchoolMethod": null,
+      "education": null,
+      "enrollPlanAttr": null,
+      "enrollPlanNature": null,
+      "enrollExamineeType": null,
+      "originChinaPlace": {
+          "nameZh": "上海市",
+          "nameEn": "Shanghai Municipality",
+          "id": 4151,
+          "code": "310000",
+          "enabled": true,
+          "bizTypeAssocs": [
+              2
+          ],
+          "bizTypeIds": [
+              2
+          ],
+          "transient": false,
+          "name": "上海市"
+      },
+      "portraitFileInfo": null,
+      "enrollExamMethod": null,
+      "subject": null,
+      "examForeignLanguage": null,
+      "enterEducationLevel": null,
+      "schoolType": null,
+      "overseasChinese": null,
+      "recruitSeason": null,
+      "examPortraitFileInfo": null,
+      "companyNature": null,
+      "recruitCategory": null,
+      "candidateSource": null,
+      "enrollRecruitCategory": null,
+      "specialTrainPlan": null,
+      "specialPlan": null
+  },
+  "instructorsTelephone": "13572203560,18192337629",
+  "courseModules": [
+      {
+          "id": 229796,
+          "type": {
+              "nameZh": "学科专业",
+              "nameEn": null,
+              "id": 110,
+              "code": "110",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "学科专业"
+          },
+          "requireInfo": {
+              "requiredSubModuleNum": 6,
+              "requiredCredits": 77.5,
+              "requiredCourseNum": 0
+          },
+          "limitInfo": {
+              "creditsUpperLimit": null,
+              "courseNumUpperLimit": null
+          },
+          "remark": null,
+          "reference": false,
+          "copy": false,
+          "index": 1,
+          "coursePlanId": 7761,
+          "children": [
+              {
+                  "id": 229797,
+                  "type": {
+                      "nameZh": "大类平台课程",
+                      "nameEn": null,
+                      "id": 702,
+                      "code": "1017",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "大类平台课程"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 4,
+                      "requiredCredits": 9,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": false,
+                  "index": 0,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229798,
+                  "type": {
+                      "nameZh": "学科基础课程",
+                      "nameEn": null,
+                      "id": 108,
+                      "code": "108",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "学科基础课程"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 12,
+                      "requiredCredits": 24,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": false,
+                  "index": 1,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229799,
+                  "type": {
+                      "nameZh": "专业方向课程",
+                      "nameEn": null,
+                      "id": 703,
+                      "code": "1018",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "专业方向课程"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 5,
+                      "requiredCredits": 12.5,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": false,
+                  "index": 2,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229800,
+                  "type": {
+                      "nameZh": "专业选修课程",
+                      "nameEn": null,
+                      "id": 131,
+                      "code": "131",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "专业选修课程"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 1,
+                      "requiredCredits": 8,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": "在以下四个方向模块中任选一个模块课程修读",
+                  "reference": false,
+                  "copy": false,
+                  "index": 3,
+                  "coursePlanId": 7761,
+                  "children": [
+                      {
+                          "id": 230406,
+                          "type": {
+                              "nameZh": "专业选修课程方向1",
+                              "nameEn": null,
+                              "id": 443,
+                              "code": "501",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "专业选修课程方向1"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 2,
+                              "requiredCredits": 8,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": "互联网系统开发方向",
+                          "reference": false,
+                          "copy": false,
+                          "index": 0,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 230407,
+                          "type": {
+                              "nameZh": "专业选修课程方向2",
+                              "nameEn": null,
+                              "id": 444,
+                              "code": "502",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "专业选修课程方向2"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 2,
+                              "requiredCredits": 8,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": "数据科学与智能服务方向",
+                          "reference": false,
+                          "copy": false,
+                          "index": 1,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 230408,
+                          "type": {
+                              "nameZh": "专业选修课程方向3",
+                              "nameEn": null,
+                              "id": 445,
+                              "code": "503",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "专业选修课程方向3"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 2,
+                              "requiredCredits": 8,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": "智能媒体计算方向",
+                          "reference": false,
+                          "copy": false,
+                          "index": 2,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 230409,
+                          "type": {
+                              "nameZh": "专业选修课程方向4",
+                              "nameEn": null,
+                              "id": 446,
+                              "code": "504",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "专业选修课程方向4"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 2,
+                              "requiredCredits": 8,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": "大型工业软件方向",
+                          "reference": false,
+                          "copy": false,
+                          "index": 3,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      }
+                  ],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": 8,
+                  "sumChildrenRequiredCredits": 32,
+                  "sumChildrenNum": 4,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229801,
+                  "type": {
+                      "nameZh": "实践实训",
+                      "nameEn": null,
+                      "id": 721,
+                      "code": "1019",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "实践实训"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 5,
+                      "requiredCredits": 14,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": false,
+                  "index": 4,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229802,
+                  "type": {
+                      "nameZh": "毕业设计/论文",
+                      "nameEn": null,
+                      "id": 22,
+                      "code": "22",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "毕业设计/论文"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 1,
+                      "requiredCredits": 10,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": false,
+                  "index": 5,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              }
+          ],
+          "majorDirection": null,
+          "sumChildrenRequiredSubModuleNum": 28,
+          "sumChildrenRequiredCredits": 77.5,
+          "sumChildrenNum": 6,
+          "sumChildrenRequiredCourseNum": null,
+          "sumChildrenCreditsUpperLimit": null,
+          "sumChildrenCourseNumUpperLimit": null
+      },
+      {
+          "id": 229803,
+          "type": {
+              "nameZh": "个性发展课程",
+              "nameEn": null,
+              "id": 782,
+              "code": "L",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "个性发展课程"
+          },
+          "requireInfo": {
+              "requiredSubModuleNum": 2,
+              "requiredCredits": 0,
+              "requiredCourseNum": 0
+          },
+          "limitInfo": {
+              "creditsUpperLimit": null,
+              "courseNumUpperLimit": null
+          },
+          "remark": "旨在鼓励学生根据自己的兴趣、爱好、特长，修读综合素养类课程、学科拓展类课程、学术深造类课程。毕业学分要求之外的通识课程、学科专业课程、暑期国际学堂课程也可认定为个性发展课程学分。学生修读获得的课程成绩和学分，将在成绩单予以记录，并纳入绩点计算范畴。",
+          "reference": false,
+          "copy": false,
+          "index": 2,
+          "coursePlanId": 7761,
+          "children": [
+              {
+                  "id": 230454,
+                  "type": {
+                      "nameZh": "综合素养类课程",
+                      "nameEn": null,
+                      "id": 741,
+                      "code": "1023",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "综合素养类课程"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 0,
+                      "requiredCredits": 0,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": false,
+                  "index": 0,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 230455,
+                  "type": {
+                      "nameZh": "学科拓展类课程",
+                      "nameEn": null,
+                      "id": 761,
+                      "code": "1024",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "学科拓展类课程"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 0,
+                      "requiredCredits": 0,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": "同一门课程只能认定在一个课程类别中",
+                  "reference": false,
+                  "copy": false,
+                  "index": 1,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 230460,
+                  "type": {
+                      "nameZh": "学术深造类课程",
+                      "nameEn": null,
+                      "id": 763,
+                      "code": "1026",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "学术深造类课程"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 0,
+                      "requiredCredits": 0,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": false,
+                  "index": 2,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              }
+          ],
+          "majorDirection": null,
+          "sumChildrenRequiredSubModuleNum": null,
+          "sumChildrenRequiredCredits": null,
+          "sumChildrenNum": 3,
+          "sumChildrenRequiredCourseNum": null,
+          "sumChildrenCreditsUpperLimit": null,
+          "sumChildrenCourseNumUpperLimit": null
+      },
+      {
+          "id": 230462,
+          "type": {
+              "nameZh": "素质拓展课程",
+              "nameEn": null,
+              "id": 706,
+              "code": "1022",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "素质拓展课程"
+          },
+          "requireInfo": {
+              "requiredSubModuleNum": 2,
+              "requiredCredits": 0,
+              "requiredCourseNum": 0
+          },
+          "limitInfo": {
+              "creditsUpperLimit": null,
+              "courseNumUpperLimit": null
+          },
+          "remark": "鼓励学生积极参加由思想教育活动、公益活动、创新创业活动、文体活动、劳动实践和社会实践活动等。除学校开设课程外，学生开展的校内外、境内外学习实践活动依据相关规定予以学分认定。学生获得认定的学分，将在成绩单予以记录，并纳入绩点计算范畴。可根据个人兴趣修读体育类素质拓展课程，获得X体育素质学分（其中必需获得《身体素质课》学分）。",
+          "reference": false,
+          "copy": false,
+          "index": 3,
+          "coursePlanId": 7761,
+          "children": [],
+          "majorDirection": null,
+          "sumChildrenRequiredSubModuleNum": null,
+          "sumChildrenRequiredCredits": null,
+          "sumChildrenNum": null,
+          "sumChildrenRequiredCourseNum": null,
+          "sumChildrenCreditsUpperLimit": null,
+          "sumChildrenCourseNumUpperLimit": null
+      },
+      {
+          "id": 229756,
+          "type": {
+              "nameZh": "通识课程",
+              "nameEn": null,
+              "id": 781,
+              "code": "G",
+              "enabled": true,
+              "bizTypeAssocs": [
+                  2
+              ],
+              "bizTypeIds": [
+                  2
+              ],
+              "transient": false,
+              "name": "通识课程"
+          },
+          "requireInfo": {
+              "requiredSubModuleNum": 10,
+              "requiredCredits": 82.5,
+              "requiredCourseNum": 0
+          },
+          "limitInfo": {
+              "creditsUpperLimit": null,
+              "courseNumUpperLimit": null
+          },
+          "remark": null,
+          "reference": false,
+          "copy": true,
+          "index": 0,
+          "coursePlanId": 7761,
+          "children": [
+              {
+                  "id": 229757,
+                  "type": {
+                      "nameZh": "思想政治理论类",
+                      "nameEn": null,
+                      "id": 661,
+                      "code": "1001",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "思想政治理论类"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 2,
+                      "requiredCredits": 18,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": true,
+                  "index": 0,
+                  "coursePlanId": 7761,
+                  "children": [
+                      {
+                          "id": 229758,
+                          "type": {
+                              "nameZh": "必修",
+                              "nameEn": "必修",
+                              "id": 139,
+                              "code": "139",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "必修"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 9,
+                              "requiredCredits": 17,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 0,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 229759,
+                          "type": {
+                              "nameZh": "限选",
+                              "nameEn": "限选",
+                              "id": 142,
+                              "code": "142",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "限选"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 1,
+                              "requiredCredits": 1,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": "四选一",
+                          "reference": false,
+                          "copy": true,
+                          "index": 1,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      }
+                  ],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": 10,
+                  "sumChildrenRequiredCredits": 18,
+                  "sumChildrenNum": 2,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229760,
+                  "type": {
+                      "nameZh": "军事类",
+                      "nameEn": null,
+                      "id": 662,
+                      "code": "1002",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "军事类"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 2,
+                      "requiredCredits": 4,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": true,
+                  "index": 1,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229761,
+                  "type": {
+                      "nameZh": "体育与健康类",
+                      "nameEn": null,
+                      "id": 663,
+                      "code": "1003",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "体育与健康类"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 5,
+                      "requiredCredits": 6,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": "毕业时必须达到学 校体育合格 421X 标准，即修满 4 个体育必修学 分；掌握 2 项运动技能（其中一项为游泳）； 达到 1 项《国家学生体质健康标准》测试合格 要求；学生本科期间可根据个人兴趣修读体育 类素质拓展课程，获得 X 体育素质学分。",
+                  "reference": false,
+                  "copy": true,
+                  "index": 2,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229762,
+                  "type": {
+                      "nameZh": "审美与艺术类",
+                      "nameEn": null,
+                      "id": 664,
+                      "code": "1004",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "审美与艺术类"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 2,
+                      "requiredCredits": 4,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": "审美与艺术类：为限选课程，包含《大学美育》课程和八类限选课程组，共计4学分；其中，《大学美育》课程为必修，2 学分；所有学生应在八类限选课程组中至少修读 2 学分。",
+                  "reference": false,
+                  "copy": true,
+                  "index": 3,
+                  "coursePlanId": 7761,
+                  "children": [
+                      {
+                          "id": 229763,
+                          "type": {
+                              "nameZh": "必修",
+                              "nameEn": "必修",
+                              "id": 139,
+                              "code": "139",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "必修"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 1,
+                              "requiredCredits": 2,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 0,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 229764,
+                          "type": {
+                              "nameZh": "限选",
+                              "nameEn": "限选",
+                              "id": 142,
+                              "code": "142",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "限选"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 1,
+                              "requiredCredits": 2,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": "见当学期开课清单",
+                          "reference": false,
+                          "copy": true,
+                          "index": 1,
+                          "coursePlanId": 7761,
+                          "children": [
+                              {
+                                  "id": 229765,
+                                  "type": {
+                                      "nameZh": "艺术史论类",
+                                      "nameEn": "艺术史论类",
+                                      "id": 1102,
+                                      "code": "YJ01",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "艺术史论类"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": null,
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 0,
+                                  "coursePlanId": 7761,
+                                  "children": [],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": null,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              },
+                              {
+                                  "id": 229766,
+                                  "type": {
+                                      "nameZh": "音乐类",
+                                      "nameEn": "音乐类",
+                                      "id": 1103,
+                                      "code": "YJ02",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "音乐类"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": null,
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 1,
+                                  "coursePlanId": 7761,
+                                  "children": [],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": null,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              },
+                              {
+                                  "id": 229767,
+                                  "type": {
+                                      "nameZh": "戏剧戏曲类",
+                                      "nameEn": "戏剧戏曲类",
+                                      "id": 1105,
+                                      "code": "YJ04",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "戏剧戏曲类"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": null,
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 2,
+                                  "coursePlanId": 7761,
+                                  "children": [],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": null,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              },
+                              {
+                                  "id": 229768,
+                                  "type": {
+                                      "nameZh": "文学类",
+                                      "nameEn": "文学类",
+                                      "id": 1106,
+                                      "code": "YJ05",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "文学类"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": null,
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 3,
+                                  "coursePlanId": 7761,
+                                  "children": [],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": null,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              },
+                              {
+                                  "id": 229769,
+                                  "type": {
+                                      "nameZh": "影视类",
+                                      "nameEn": "影视类",
+                                      "id": 1107,
+                                      "code": "YJ06",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "影视类"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": null,
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 4,
+                                  "coursePlanId": 7761,
+                                  "children": [],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": null,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              },
+                              {
+                                  "id": 229770,
+                                  "type": {
+                                      "nameZh": "美术类",
+                                      "nameEn": "美术类",
+                                      "id": 1108,
+                                      "code": "YJ07",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "美术类"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": null,
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 5,
+                                  "coursePlanId": 7761,
+                                  "children": [],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": null,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              },
+                              {
+                                  "id": 229771,
+                                  "type": {
+                                      "nameZh": "舞蹈类",
+                                      "nameEn": "舞蹈类",
+                                      "id": 1104,
+                                      "code": "YJ03",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "舞蹈类"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": null,
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 6,
+                                  "coursePlanId": 7761,
+                                  "children": [],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": null,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              },
+                              {
+                                  "id": 229772,
+                                  "type": {
+                                      "nameZh": "艺术设计类",
+                                      "nameEn": "艺术设计类",
+                                      "id": 1109,
+                                      "code": "YJ08",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "艺术设计类"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": null,
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 7,
+                                  "coursePlanId": 7761,
+                                  "children": [],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": null,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              }
+                          ],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": 8,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      }
+                  ],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": 2,
+                  "sumChildrenRequiredCredits": 4,
+                  "sumChildrenNum": 2,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229773,
+                  "type": {
+                      "nameZh": "语言类",
+                      "nameEn": null,
+                      "id": 665,
+                      "code": "1005",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "语言类"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 2,
+                      "requiredCredits": 8,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": true,
+                  "index": 4,
+                  "coursePlanId": 7761,
+                  "children": [
+                      {
+                          "id": 229774,
+                          "type": {
+                              "nameZh": "必修",
+                              "nameEn": "必修",
+                              "id": 139,
+                              "code": "139",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "必修"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 0,
+                              "requiredCredits": 0,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 0,
+                          "coursePlanId": 7761,
+                          "children": [
+                              {
+                                  "id": 229775,
+                                  "type": {
+                                      "nameZh": "综合英语类",
+                                      "nameEn": "综合英语类",
+                                      "id": 1124,
+                                      "code": "WGY03",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "综合英语类"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": "A+级大学英语（高阶）（2 学分），A级大学英语 III（2 学分），B级大学英语 II、III（4 学分）；C级大学英语（基础）I、II、III（6 学分）",
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 0,
+                                  "coursePlanId": 7761,
+                                  "children": [],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": null,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              }
+                          ],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": 1,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 229776,
+                          "type": {
+                              "nameZh": "限选",
+                              "nameEn": "限选",
+                              "id": 142,
+                              "code": "142",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "限选"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 0,
+                              "requiredCredits": 0,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 1,
+                          "coursePlanId": 7761,
+                          "children": [
+                              {
+                                  "id": 229777,
+                                  "type": {
+                                      "nameZh": "通用基础",
+                                      "nameEn": "通用基础",
+                                      "id": 1122,
+                                      "code": "WGY01",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "通用基础"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": null,
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 0,
+                                  "coursePlanId": 7761,
+                                  "children": [
+                                      {
+                                          "id": 229778,
+                                          "type": {
+                                              "nameZh": "核心能力类",
+                                              "nameEn": "核心能力类",
+                                              "id": 1125,
+                                              "code": "WGY04",
+                                              "enabled": true,
+                                              "bizTypeAssocs": [
+                                                  2
+                                              ],
+                                              "bizTypeIds": [
+                                                  2
+                                              ],
+                                              "transient": false,
+                                              "name": "核心能力类"
+                                          },
+                                          "requireInfo": {
+                                              "requiredSubModuleNum": 0,
+                                              "requiredCredits": 0,
+                                              "requiredCourseNum": 0
+                                          },
+                                          "limitInfo": {
+                                              "creditsUpperLimit": null,
+                                              "courseNumUpperLimit": null
+                                          },
+                                          "remark": "A、B级限选2学分，\r\nC级限选此模块2学分或拓展提高类2学分",
+                                          "reference": false,
+                                          "copy": true,
+                                          "index": 0,
+                                          "coursePlanId": 7761,
+                                          "children": [],
+                                          "majorDirection": null,
+                                          "sumChildrenRequiredSubModuleNum": null,
+                                          "sumChildrenRequiredCredits": null,
+                                          "sumChildrenNum": null,
+                                          "sumChildrenRequiredCourseNum": null,
+                                          "sumChildrenCreditsUpperLimit": null,
+                                          "sumChildrenCourseNumUpperLimit": null
+                                      }
+                                  ],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": 1,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              },
+                              {
+                                  "id": 229779,
+                                  "type": {
+                                      "nameZh": "拓展提高",
+                                      "nameEn": "拓展提高",
+                                      "id": 1123,
+                                      "code": "WGY02",
+                                      "enabled": true,
+                                      "bizTypeAssocs": [
+                                          2
+                                      ],
+                                      "bizTypeIds": [
+                                          2
+                                      ],
+                                      "transient": false,
+                                      "name": "拓展提高"
+                                  },
+                                  "requireInfo": {
+                                      "requiredSubModuleNum": 0,
+                                      "requiredCredits": 0,
+                                      "requiredCourseNum": 0
+                                  },
+                                  "limitInfo": {
+                                      "creditsUpperLimit": null,
+                                      "courseNumUpperLimit": null
+                                  },
+                                  "remark": "A+级限选6学分，\r\nA级限选4学分，\r\nB级限选2学分，\r\nC级限选此模块2学分或核心能力类2学分",
+                                  "reference": false,
+                                  "copy": true,
+                                  "index": 1,
+                                  "coursePlanId": 7761,
+                                  "children": [
+                                      {
+                                          "id": 229780,
+                                          "type": {
+                                              "nameZh": "高阶技能类",
+                                              "nameEn": "高阶技能类",
+                                              "id": 1126,
+                                              "code": "WGY05",
+                                              "enabled": true,
+                                              "bizTypeAssocs": [
+                                                  2
+                                              ],
+                                              "bizTypeIds": [
+                                                  2
+                                              ],
+                                              "transient": false,
+                                              "name": "高阶技能类"
+                                          },
+                                          "requireInfo": {
+                                              "requiredSubModuleNum": 0,
+                                              "requiredCredits": 0,
+                                              "requiredCourseNum": 0
+                                          },
+                                          "limitInfo": {
+                                              "creditsUpperLimit": null,
+                                              "courseNumUpperLimit": null
+                                          },
+                                          "remark": null,
+                                          "reference": false,
+                                          "copy": true,
+                                          "index": 0,
+                                          "coursePlanId": 7761,
+                                          "children": [],
+                                          "majorDirection": null,
+                                          "sumChildrenRequiredSubModuleNum": null,
+                                          "sumChildrenRequiredCredits": null,
+                                          "sumChildrenNum": null,
+                                          "sumChildrenRequiredCourseNum": null,
+                                          "sumChildrenCreditsUpperLimit": null,
+                                          "sumChildrenCourseNumUpperLimit": null
+                                      },
+                                      {
+                                          "id": 229781,
+                                          "type": {
+                                              "nameZh": "学术英语类",
+                                              "nameEn": "学术英语类",
+                                              "id": 1127,
+                                              "code": "WGY06",
+                                              "enabled": true,
+                                              "bizTypeAssocs": [
+                                                  2
+                                              ],
+                                              "bizTypeIds": [
+                                                  2
+                                              ],
+                                              "transient": false,
+                                              "name": "学术英语类"
+                                          },
+                                          "requireInfo": {
+                                              "requiredSubModuleNum": 0,
+                                              "requiredCredits": 0,
+                                              "requiredCourseNum": 0
+                                          },
+                                          "limitInfo": {
+                                              "creditsUpperLimit": null,
+                                              "courseNumUpperLimit": null
+                                          },
+                                          "remark": null,
+                                          "reference": false,
+                                          "copy": true,
+                                          "index": 1,
+                                          "coursePlanId": 7761,
+                                          "children": [],
+                                          "majorDirection": null,
+                                          "sumChildrenRequiredSubModuleNum": null,
+                                          "sumChildrenRequiredCredits": null,
+                                          "sumChildrenNum": null,
+                                          "sumChildrenRequiredCourseNum": null,
+                                          "sumChildrenCreditsUpperLimit": null,
+                                          "sumChildrenCourseNumUpperLimit": null
+                                      },
+                                      {
+                                          "id": 229782,
+                                          "type": {
+                                              "nameZh": "文化文学类",
+                                              "nameEn": "文化文学类",
+                                              "id": 1128,
+                                              "code": "WGY07",
+                                              "enabled": true,
+                                              "bizTypeAssocs": [
+                                                  2
+                                              ],
+                                              "bizTypeIds": [
+                                                  2
+                                              ],
+                                              "transient": false,
+                                              "name": "文化文学类"
+                                          },
+                                          "requireInfo": {
+                                              "requiredSubModuleNum": 0,
+                                              "requiredCredits": 0,
+                                              "requiredCourseNum": 0
+                                          },
+                                          "limitInfo": {
+                                              "creditsUpperLimit": null,
+                                              "courseNumUpperLimit": null
+                                          },
+                                          "remark": null,
+                                          "reference": false,
+                                          "copy": true,
+                                          "index": 2,
+                                          "coursePlanId": 7761,
+                                          "children": [],
+                                          "majorDirection": null,
+                                          "sumChildrenRequiredSubModuleNum": null,
+                                          "sumChildrenRequiredCredits": null,
+                                          "sumChildrenNum": null,
+                                          "sumChildrenRequiredCourseNum": null,
+                                          "sumChildrenCreditsUpperLimit": null,
+                                          "sumChildrenCourseNumUpperLimit": null
+                                      },
+                                      {
+                                          "id": 229783,
+                                          "type": {
+                                              "nameZh": "专门用途类",
+                                              "nameEn": "专门用途类",
+                                              "id": 1129,
+                                              "code": "WGY08",
+                                              "enabled": true,
+                                              "bizTypeAssocs": [
+                                                  2
+                                              ],
+                                              "bizTypeIds": [
+                                                  2
+                                              ],
+                                              "transient": false,
+                                              "name": "专门用途类"
+                                          },
+                                          "requireInfo": {
+                                              "requiredSubModuleNum": 0,
+                                              "requiredCredits": 0,
+                                              "requiredCourseNum": 0
+                                          },
+                                          "limitInfo": {
+                                              "creditsUpperLimit": null,
+                                              "courseNumUpperLimit": null
+                                          },
+                                          "remark": null,
+                                          "reference": false,
+                                          "copy": true,
+                                          "index": 3,
+                                          "coursePlanId": 7761,
+                                          "children": [],
+                                          "majorDirection": null,
+                                          "sumChildrenRequiredSubModuleNum": null,
+                                          "sumChildrenRequiredCredits": null,
+                                          "sumChildrenNum": null,
+                                          "sumChildrenRequiredCourseNum": null,
+                                          "sumChildrenCreditsUpperLimit": null,
+                                          "sumChildrenCourseNumUpperLimit": null
+                                      },
+                                      {
+                                          "id": 229784,
+                                          "type": {
+                                              "nameZh": "非通用语类",
+                                              "nameEn": "非通用语类",
+                                              "id": 1130,
+                                              "code": "WGY09",
+                                              "enabled": true,
+                                              "bizTypeAssocs": [
+                                                  2
+                                              ],
+                                              "bizTypeIds": [
+                                                  2
+                                              ],
+                                              "transient": false,
+                                              "name": "非通用语类"
+                                          },
+                                          "requireInfo": {
+                                              "requiredSubModuleNum": 0,
+                                              "requiredCredits": 0,
+                                              "requiredCourseNum": 0
+                                          },
+                                          "limitInfo": {
+                                              "creditsUpperLimit": null,
+                                              "courseNumUpperLimit": null
+                                          },
+                                          "remark": null,
+                                          "reference": false,
+                                          "copy": true,
+                                          "index": 4,
+                                          "coursePlanId": 7761,
+                                          "children": [],
+                                          "majorDirection": null,
+                                          "sumChildrenRequiredSubModuleNum": null,
+                                          "sumChildrenRequiredCredits": null,
+                                          "sumChildrenNum": null,
+                                          "sumChildrenRequiredCourseNum": null,
+                                          "sumChildrenCreditsUpperLimit": null,
+                                          "sumChildrenCourseNumUpperLimit": null
+                                      }
+                                  ],
+                                  "majorDirection": null,
+                                  "sumChildrenRequiredSubModuleNum": null,
+                                  "sumChildrenRequiredCredits": null,
+                                  "sumChildrenNum": 5,
+                                  "sumChildrenRequiredCourseNum": null,
+                                  "sumChildrenCreditsUpperLimit": null,
+                                  "sumChildrenCourseNumUpperLimit": null
+                              }
+                          ],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": 2,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      }
+                  ],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": 2,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229785,
+                  "type": {
+                      "nameZh": "数学与自然科学类",
+                      "nameEn": null,
+                      "id": 666,
+                      "code": "1006",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "数学与自然科学类"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 10,
+                      "requiredCredits": 30.5,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": true,
+                  "index": 5,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229786,
+                  "type": {
+                      "nameZh": "新生研讨类",
+                      "nameEn": null,
+                      "id": 667,
+                      "code": "1007",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "新生研讨类"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 1,
+                      "requiredCredits": 1,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": true,
+                  "index": 6,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229787,
+                  "type": {
+                      "nameZh": "信息类",
+                      "nameEn": null,
+                      "id": 668,
+                      "code": "1008",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "信息类"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 2,
+                      "requiredCredits": 4,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": null,
+                  "reference": false,
+                  "copy": true,
+                  "index": 7,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229788,
+                  "type": {
+                      "nameZh": "安全教育类",
+                      "nameEn": null,
+                      "id": 1041,
+                      "code": "1000",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "安全教育类"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 0,
+                      "requiredCredits": 1,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": "见当学期开课清单",
+                  "reference": false,
+                  "copy": true,
+                  "index": 8,
+                  "coursePlanId": 7761,
+                  "children": [],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": null,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              },
+              {
+                  "id": 229789,
+                  "type": {
+                      "nameZh": "通识任选",
+                      "nameEn": "通识限选",
+                      "id": 1166,
+                      "code": "202304",
+                      "enabled": true,
+                      "bizTypeAssocs": [
+                          2
+                      ],
+                      "bizTypeIds": [
+                          2
+                      ],
+                      "transient": false,
+                      "name": "通识任选"
+                  },
+                  "requireInfo": {
+                      "requiredSubModuleNum": 0,
+                      "requiredCredits": 6,
+                      "requiredCourseNum": 0
+                  },
+                  "limitInfo": {
+                      "creditsUpperLimit": null,
+                      "courseNumUpperLimit": null
+                  },
+                  "remark": "从文明与科技类、创新创 业类、管理与领导力类、全球视野类、生态与 可持续发展类、写作与沟通类等通识任选类课组中选择修读不少于 6 学分课程。",
+                  "reference": false,
+                  "copy": true,
+                  "index": 9,
+                  "coursePlanId": 7761,
+                  "children": [
+                      {
+                          "id": 229790,
+                          "type": {
+                              "nameZh": "创新创业类",
+                              "nameEn": null,
+                              "id": 669,
+                              "code": "1009",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "创新创业类"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 0,
+                              "requiredCredits": 0,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 0,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 229791,
+                          "type": {
+                              "nameZh": "文明与科技类",
+                              "nameEn": "文明与科技类",
+                              "id": 1203,
+                              "code": "2023111",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "文明与科技类"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 0,
+                              "requiredCredits": 0,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 1,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 229792,
+                          "type": {
+                              "nameZh": "管理与领导力类",
+                              "nameEn": null,
+                              "id": 681,
+                              "code": "1011",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "管理与领导力类"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 0,
+                              "requiredCredits": 0,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 2,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 229793,
+                          "type": {
+                              "nameZh": "全球视野类",
+                              "nameEn": null,
+                              "id": 671,
+                              "code": "1012",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "全球视野类"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 0,
+                              "requiredCredits": 0,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 3,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 229794,
+                          "type": {
+                              "nameZh": "生态与可持续发展类",
+                              "nameEn": "生态与可持续发展类",
+                              "id": 1202,
+                              "code": "202310",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "生态与可持续发展类"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 0,
+                              "requiredCredits": 0,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 4,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      },
+                      {
+                          "id": 229795,
+                          "type": {
+                              "nameZh": "写作与沟通类",
+                              "nameEn": null,
+                              "id": 682,
+                              "code": "1015",
+                              "enabled": true,
+                              "bizTypeAssocs": [
+                                  2
+                              ],
+                              "bizTypeIds": [
+                                  2
+                              ],
+                              "transient": false,
+                              "name": "写作与沟通类"
+                          },
+                          "requireInfo": {
+                              "requiredSubModuleNum": 0,
+                              "requiredCredits": 0,
+                              "requiredCourseNum": 0
+                          },
+                          "limitInfo": {
+                              "creditsUpperLimit": null,
+                              "courseNumUpperLimit": null
+                          },
+                          "remark": null,
+                          "reference": false,
+                          "copy": true,
+                          "index": 5,
+                          "coursePlanId": 7761,
+                          "children": [],
+                          "majorDirection": null,
+                          "sumChildrenRequiredSubModuleNum": null,
+                          "sumChildrenRequiredCredits": null,
+                          "sumChildrenNum": null,
+                          "sumChildrenRequiredCourseNum": null,
+                          "sumChildrenCreditsUpperLimit": null,
+                          "sumChildrenCourseNumUpperLimit": null
+                      }
+                  ],
+                  "majorDirection": null,
+                  "sumChildrenRequiredSubModuleNum": null,
+                  "sumChildrenRequiredCredits": null,
+                  "sumChildrenNum": 6,
+                  "sumChildrenRequiredCourseNum": null,
+                  "sumChildrenCreditsUpperLimit": null,
+                  "sumChildrenCourseNumUpperLimit": null
+              }
+          ],
+          "majorDirection": null,
+          "sumChildrenRequiredSubModuleNum": 26,
+          "sumChildrenRequiredCredits": 82.5,
+          "sumChildrenNum": 10,
+          "sumChildrenRequiredCourseNum": null,
+          "sumChildrenCreditsUpperLimit": null,
+          "sumChildrenCourseNumUpperLimit": null
+      }
+  ]
+}

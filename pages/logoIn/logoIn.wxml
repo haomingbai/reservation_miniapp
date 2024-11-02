@@ -29,10 +29,10 @@
   <block wx:if="{{logoIn}}">
     <view>
       <view class="text-black padding" style="font-weight: 600;">
-        账号
+        邮箱
       </view>
       <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
-        <input type="text" placeholder="请输入您的账号" style="width: 100%;" />
+        <input value="{{userEmail}}" bindinput="setEmail" type="text" placeholder="请输入您的邮箱" style="width: 100%;" />
       </view>
     </view>
     <view>
@@ -40,7 +40,7 @@
         密码
       </view>
       <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
-        <input type="text" password="{{!isShowPassword}}" placeholder="请输入您的密码" style="width: 100%;" />
+        <input type="text" value="{{userPassword}}" bindinput="setPassword" password="{{!isShowPassword}}" placeholder="请输入您的密码" style="width: 100%;" />
         <image src="{{psdStatus}}" bindtap="isShowPsd" style="width: 50rpx;height: 50rpx;position: relative;z-index: 2;" mode="aspectFill"></image>
       </view>
     </view>
@@ -48,7 +48,7 @@
     <view bindtap="toggle" class="block  margin-tb-sm lg margin-top" style="margin-top: 3vh;color: #af8b7c;border-bottom: 2rpx solid #af8b7c;width: 140rpx;">
       现在注册？
     </view>
-    <button bindtap="logoInUser" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 5vh;width: 100%;background-color: #8044de;color: white;">
+    <button bindtap="userLogin" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 5vh;width: 100%;background-color: #8044de;color: white;">
       <text class="iconfont-spin margin-top"></text> 登录
     </button>
   </block>
@@ -60,7 +60,7 @@
         设置账号
       </view>
       <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
-        <input type="text" placeholder="请输入您的账号" style="width: 100%;" />
+        <input value="{{userName}}" bindinput="setUserName" type="text" placeholder="请输入您的账号" style="width: 100%;" />
       </view>
     </view>
 
@@ -70,7 +70,7 @@
       </view>
 <!--  显示是否是可以显示密码 -->
       <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
-        <input type="text" password="{{!isShowPassword}}" placeholder="请输入您的密码"  style="width: 100%;" />
+        <input type="text" password="{{!isShowPassword}}" value="{{userPassword}}" bindinput="setPassword" placeholder="密码长度不少于8位"  style="width: 100%;" />
         <image src="{{psdStatus}}" bindtap="isShowPsd" style="width: 50rpx;height: 50rpx;position: relative;z-index: 2;" mode="aspectFill"></image>
       </view>
     </view>
@@ -84,14 +84,14 @@
     </button>
 
   </block>
-  <!-- 手机号码验证 -->
+  <!-- 邮箱验证 -->
   <block wx:if="{{!logoIntoGet}}">
     <view>
       <view class="text-black padding" style="font-weight: 600;">
-        输入手机号
+        输入邮箱
       </view>
       <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
-        <input type="number" placeholder="请输入您的手机号" style="width: 100%;" />
+        <input value="{{userEmail}}" bindinput="setEmail" type="text" placeholder="请输入您的邮箱" style="width: 100%;" />
       </view>
     </view>
 
@@ -101,9 +101,9 @@
       </view>
 
       <view class="padding-xl radius shadow-warp" style="margin-top: 1vh;margin-left: 6rpx;width: 90%;background-color: #F2F0F1;height: 5vh;display: flex;align-items: center;width: 100%;">
-        <input type="text" placeholder="请输入验证码" style="width: 100%;" />
+        <input value="{{verificationCode}}" bindinput="setVerificationCode" type="text" placeholder="请输入验证码" style="width: 100%;" />
         <!-- 验证码显示的地方显示的 -->
-        <button bindtap="sendSmsF" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 0vh;margin-bottom: 0vh;width: 30%;background-color: #8044de;color: white;padding: 0  10rpx 0 10rpx;">
+        <button bindtap="sendCode" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 0vh;margin-bottom: 0vh;width: 30%;background-color: #8044de;color: white;padding: 0  10rpx 0 10rpx;">
           <view wx:if="{{sendMessage}}">{{second}}</view>
           <view wx:if="{{!sendMessage}}" style="font-size: 25rpx;">验证码</view>
         </button>
@@ -112,7 +112,7 @@
     </view>
 
 
-    <button bindtap="logoInUser" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 5vh;width: 100%;background-color: #8044de;color: white;">
+    <button bindtap="userRegister" class="cu-btn block  margin-tb-sm lg margin-top shadow" style="margin-top: 5vh;width: 100%;background-color: #8044de;color: white;">
       <text class="iconfont-spin margin-top"></text> 确认
     </button>
 

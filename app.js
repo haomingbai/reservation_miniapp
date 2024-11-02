@@ -47,5 +47,6 @@ App({
   },
   globalData: {
     openid: '',
+    srvurl: 'https://nwpu.space:2017',
   }
 })

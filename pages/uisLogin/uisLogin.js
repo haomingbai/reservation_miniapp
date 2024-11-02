@@ -4,6 +4,10 @@
 // import "weapp-cookie"
 import cookies from 'weapp-cookie'
 
+const app = getApp();
+
+const srvurl = app.globalData.srvurl;
+
 // 明天删掉cookie相关代码，由npm包保管
 
 Page({
@@ -24,6 +28,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    // console.log(srvurl);
     wx.request({
       url: "https://uis.nwpu.edu.cn/cas/qr/init",
       success: res => {

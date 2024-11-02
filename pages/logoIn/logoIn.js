@@ -1,22 +1,20 @@
 const normalFunction = require("../normalFunction/normalFunction")
 
-const app = getApp()
+const app = getApp();
+const srvurl = app.globalData.srvurl;
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    uiop: '',
-    ium: "",
-    mingz: '',
-    mima: '',
-    yanzs: '',
-    
-    gois: 23,
-    flag: true,
-    borderH: 4,
-    nimama: 2,
+    // Personal information
+    userEmail: "",
+    userPassword: "",
+    verificationCode: "",
+    userName: "",
+
     flagTrue: true,
     //用户输入的手机号码
     phone: '',
@@ -41,10 +39,10 @@ Page({
 
     //判断是否为新注册用户
     isNewUser: false,
-    isSendSms : false,
+    isSendSms: false,
 
     //是否同意协议
-    isAgree : false 
+    isAgree: false
   },
   isShowPsd() {
     if (!this.data.isShowPassword) {
@@ -59,25 +57,28 @@ Page({
       })
     }
   },
-  privateUserSign(){
+  privateUserSign() {
     wx.navigateTo({
       url: '/pages/userSign/userSign',
     })
   },
-  privateSign(){
+  privateSign() {
     wx.navigateTo({
       url: '/pages/privacySign/privacySign',
     })
   },
   toNext() {
-    /* TODO:这里需要加入判断题条件
-    if (null) {
+    /* TODO:这里需要加入判断题条件 */
+
+    let flag = (this.data.userName.length > 0 && this.data.userPassword.length >= 8)
+
+    if (!flag) {
       wx.showToast({
         icon: 'none',
         title: '请先完善账号和密码',
       })
-      return
-    } */
+      return;
+    }
     // 创建一个动画实例
     var animation = wx.createAnimation({
       duration: 1000, // 动画持续时间
@@ -155,15 +156,15 @@ Page({
         })
       }, 500)
   },
-  bandleChange(){
+  bandleChange() {
     // 1 获取单选框中的值
     let isAgree = this.data.isAgree
 
     // 2 把值赋值给 data 中的数据
     this.setData({
-      isAgree:!isAgree
+      isAgree: !isAgree
     })
-    console.log("isAgree",isAgree)
+    console.log("isAgree", isAgree)
   },
   //现在注册动画一
   toggle() {
@@ -239,81 +240,29 @@ Page({
     return res;
   },
   //判断输入的号码的格式是否正确
-  judgePhoneNumber() {
-    let that = this
-    let s = that.data.phone.substr(0, 1)
-    let str = this.data.phone;
-    let hasLetter = /[a-zA-Z]/.test(str);
-    if (hasLetter) {
+  isValidEmail: function (email) {
+    // 检查 ASCII 长度是否不超过 50
+    if (email.length > 50) {
       wx.showToast({
-        icon: 'none',
-        title: '请输入正确的手机号',
+        title: '地址过长',
+        icon: 'error'
       })
-      console.log("字符串中包含字母");
-      return false
+      return false;
     }
-    if (that.data.phone.length != 11) {
-      wx.showToast({
-        icon: 'none',
-        title: '请输入正确的手机号',
-      })
-      return false
-    }
-    if (s != 1) {
-      wx.showToast({
-        icon: 'none',
-        title: '请输入正确的手机号',
-      })
-      return false
-    }
-    return true
-  },
-  sendSmsF() {
-    //判断是不是正在发送验证码
-    /* if(this.data.isSendSms){
-      return;
-    }  */
 
-    //判断输入的手机号是否符合规范
-    let that = this
-    if (!that.judgePhoneNumber()) {
-      return
+    // 正则表达式匹配邮箱格式
+    const emailPattern = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+    let res = emailPattern.test(email);
+    if (!res) {
+      // console.log(res);
+      wx.showToast({
+        title: '地址非法',
+        icon: 'error'
+      })
     }
-    that.setData({
-      sendMessage: true
-    })
-    //获取随机验证码
-    let sa = that.generateMixed(6)
-    that.setData({
-      gois: sa
-    })
-
-    
-    //这个地方是发送验证码的代码，需要你调试一下
-    /* wx.cloud.callFunction({
-      name: 'sendsms',
-      data: {
-        mobile: that.data.phone,
-        nationcode: '86',
-        params: [that.data.gois]
-      },
-      success: res => {
-        console.log('[云函数] [sendsms] 调用成功')
-        console.log(res)
-        this.setData({
-          isSendSms : true
-        })
-      },
-      fail: err => {
-        console.error('[云函数] [sendsms] 调用失败', err)
-      }
-    }) */
-    this.timer()
+    return res;
   },
 
-  //登录用户的触发事件
-  logoInUser() {
-  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -332,12 +281,11 @@ Page({
               second: 60,
               alreadySend: false,
               send: true,
-              isSendSms : false
+              isSendSms: false
             })
             resolve(setTimer)
           }
-        }
-        , 1000)
+        }, 1000)
     })
     promise.then((setTimer) => {
       clearInterval(setTimer)
@@ -345,5 +293,219 @@ Page({
         sendMessage: false
       })
     })
-  }
+  },
+
+  userRegister: function (params) {
+    console.log(params);
+  },
+
+  // 设置账号调用这个函数
+  setUserName: function (e) {
+    let value = e.detail.value;
+    // console.log(e);
+    this.setData({
+      userName: value.trim()
+    });
+  },
+
+  // Set 系列函数用来处理输入
+  setPassword: function (e) {
+    let value = e.detail.value;
+    // console.log(e);
+    this.setData({
+      userPassword: value.trim()
+    });
+  },
+
+  setEmail: function (e) {
+    let value = e.detail.value;
+    this.setData({
+      userEmail: value.trim()
+    });
+  },
+
+  setVerificationCode: function (e) {
+    let value = e.detail.value;
+    this.setData({
+      verificationCode: value.trim()
+    });
+  },
+
+  // 发送验证码
+  sendCode: function () {
+    const email = this.data.userEmail;
+    const flag = this.isValidEmail(email);
+    if (flag) {
+      wx.request({
+        url: srvurl + '/sendcode',
+        method: 'POST',
+        data: {
+          email: email
+        },
+        success: (res) => {
+          this.setData({
+            sendMessage: true
+          });
+          this.timer();
+          console.log(res);
+        },
+        fail: (err) => {
+          console.log(err);
+        },
+      })
+    }
+  },
+
+  // 注册用户
+  userRegister: function (e) {
+    const username = this.data.userName;
+    const password = this.data.userPassword;
+    const email = this.data.userEmail;
+    const code = this.data.verificationCode;
+    console.log(username, password, email, code);
+    if (!(username && password && email && code)) {
+      wx.showToast({
+        title: '信息不全',
+        icon: 'error'
+      })
+      return;
+    }
+
+
+    wx.showLoading({
+      title: '处理中',
+    })
+    wx.request({
+      url: srvurl + "/register",
+      method: 'POST',
+      data: {
+        email: email,
+        username: username,
+        password: password.toString(),
+        code: code.toString()
+      },
+      success: res => {
+        console.log(res);
+        wx.hideLoading();
+        if (res.statusCode == 200) {
+          wx.showToast({
+            title: '注册成功',
+          });
+        } else {
+          console.log(res.data.message);
+          switch (res.data.message) {
+            case "Invalid request data":
+              wx.showToast({
+                title: '数据不全',
+                icon: 'error'
+              })
+              break;
+            case "Invalid verification code":
+              wx.showToast({
+                title: '验证码无效',
+                icon: 'error'
+              });
+              break;
+            case "The email has been registered!":
+              wx.showToast({
+                title: '已经注册',
+                icon: 'error'
+              })
+              break;
+            default:
+              wx.showModal({
+                title: '未知错误',
+                content: '请联系"haomingbai@hotmail.com"寻求帮助',
+                complete: (res) => {
+                  if (res.cancel) {}
+                  if (res.confirm) {}
+                }
+              })
+              break;
+          }
+        }
+        this.toBack2();
+        this.toBack();
+      },
+      fail: err => {
+        console.log(err);
+        wx.hideLoading();
+        wx.showModal({
+          title: '请求失败',
+          content: '网络不畅或服务器正在维护',
+          complete: (res) => {
+            if (res.cancel) {}
+            if (res.confirm) {}
+          }
+        });
+        this.toBack2();
+        this.toBack();
+      },
+    })
+  },
+
+  //登录用户
+  userLogin(e) {
+    const email = this.data.userEmail;
+    const password = this.data.userPassword;
+    // 检查用户的登陆信息是否有效
+    if (!(email && password)) {
+      wx.showToast({
+        title: '信息不全',
+        icon: 'error'
+      });
+      return;
+    }
+    wx.showLoading({
+      title: '登陆中',
+    })
+    wx.request({
+      url: srvurl + '/login',
+      method: 'POST',
+      data: {
+        email: email,
+        password: password
+      },
+      success: res => {
+        wx.hideLoading();
+        console.log(res);
+        switch (res.statusCode) {
+          case 200:
+            wx.showToast({
+              title: '登陆成功',
+            })
+            wx.setStorageSync('userName', res.data.username);
+            wx.setStorageSync('userPassword', password);
+            wx.setStorageSync('userEmail', email);
+            break;
+
+          case 400:
+            switch (res.data.message) {
+              case "Invalid email or password":
+                wx.showToast({
+                  title: '用户名或密码错误\n请检查登陆信息。',
+                  icon: 'none'
+                });
+                break;
+
+              case "Invalid request data":
+                wx.showToast({
+                  title: '请求无效',
+                  icon: 'error'
+                });
+                break;
+
+              default:
+                break;
+            }
+            break;
+
+          default:
+            break;
+        };
+
+        
+      }
+    })
+  },
 })

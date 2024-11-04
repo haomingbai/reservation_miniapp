@@ -295,10 +295,6 @@ Page({
     })
   },
 
-  userRegister: function (params) {
-    console.log(params);
-  },
-
   // 设置账号调用这个函数
   setUserName: function (e) {
     let value = e.detail.value;
@@ -358,6 +354,13 @@ Page({
 
   // 注册用户
   userRegister: function (e) {
+    if (this.data.isAgree == false) {
+      wx.showToast({
+        title: '请同意《用户协议》和《隐私协议》',
+        icon: 'none'
+      })
+      return;
+    }
     const username = this.data.userName;
     const password = this.data.userPassword;
     const email = this.data.userEmail;
@@ -446,6 +449,13 @@ Page({
 
   //登录用户
   userLogin(e) {
+    if (this.data.isAgree == false) {
+      wx.showToast({
+        title: '请同意《用户协议》和《隐私协议》',
+        icon: 'none'
+      })
+      return;
+    }
     const email = this.data.userEmail;
     const password = this.data.userPassword;
     // 检查用户的登陆信息是否有效
@@ -504,7 +514,12 @@ Page({
             break;
         };
 
-        
+
+      },
+
+      fail: err => {
+        wx.hideLoading();
+        console.log(err);
       }
     })
   },

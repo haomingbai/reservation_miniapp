@@ -1,7 +1,7 @@
 // pages/about/home/home.js
 Component({
   options: {
-    addGlobalClass: true,
+    addGlobalClass: true,   
   },
   /**
    * 组件的属性列表
@@ -18,12 +18,28 @@ Component({
     usersCount: 0,
     modelTotal: 0,
     visitTotal: 0,
+    userName: "登录"
+  },
+  lifetimes: {
+    // 生命周期函数，可以为函数，或一个在methods段中定义的方法名
+    attached: function () {
+      let name = wx.getStorageSync('userName');
+      if (name) {
+        this.setData({
+          userName: name
+        });
+      }
+    },
+    moved: function () { },
+    detached: function () { },
   },
 
   /**
    * 组件的方法列表
    */
+
   methods: {
+
     coutNum(e) {
       if (e > 1000 && e < 10000) {
         e = (e / 1000).toFixed(1) + 'k'

@@ -66,6 +66,7 @@ Page({
                         }).then(() => {
                           cookies.clearCookies()
                           wx.navigateBack();
+                          clearInterval(this.data.inter)
                         });
 
 

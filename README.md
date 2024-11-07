@@ -51,6 +51,7 @@
 "/getreg" 下载签到表，要求直接传入考场Id,数据示例如下：
 ```
 {
-    "examId": "examId"
+    "examId": "examId",
+    "teacherId": "2020000032"
 }
 ```

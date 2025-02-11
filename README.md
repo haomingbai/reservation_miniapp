@@ -3,7 +3,7 @@
 ## 网络接口
 所有网络方法都采用POST方法
 ### 测试接口
-"/hi" 测试服务器是否开启
+"/ping" 测试服务器是否开启
 ### 竞赛信息上传
 "/uploadsubjects" 数据类型为json，上传数据示例如下：
 ```
@@ -39,6 +39,35 @@
 ```
 {
     "examId": "examid"
+}
+```
+返回值
+```
+{
+    "subjects": [
+        {
+            "subjectId": "M01M12068",
+            "term": 202401,
+            "type": 1,
+            "subjectName": "程序设计校赛",
+            "beginTime": 1730862919127,
+            "dueTime": 1730863045171,
+            "visibleTime": 1730763045171,
+            "invisibleTime": 1730963045171
+            
+        },
+        {
+            "subjectId": "M01M12068",
+            "term": 202401,
+            "type": 1,
+            "subjectName": "程序设计校赛",
+            "beginTime": 1730862919127,
+            "dueTime": 1730863045171,
+            "visibleTime": 1730763045171,
+            "invisibleTime": 1730963045171
+            
+        }
+    ]
 }
 ```
 优先识别examId \

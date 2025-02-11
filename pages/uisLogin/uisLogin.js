@@ -2,10 +2,9 @@
 // pages/uisLogin/uisLogin.js
 
 // import "weapp-cookie"
-import cookies from 'weapp-cookie'
+// import cookies from 'weapp-cookie'
 
 const app = getApp();
-
 const srvurl = app.globalData.srvurl;
 
 // 明天删掉cookie相关代码，由npm包保管
@@ -143,6 +142,15 @@ Page({
                                               console.log(res);
                                               // 数据的示例存储在旁边的studentDataExample.json中，res.data.student.code 是学号，res.data.student.person.country.nameEn是国籍，如果是"CHINA"就是中国人，名字在res.data.student.person.nameZh，否则在res.data.student.person.nameEn
                                               // 其实我觉得有时候，受限于错误的技术选择，直接用nameEn会更安全一点
+                                              wx.setStorageSync('studentID', res.data.student.code);
+                                              if (res.data.student.person.country.nameEn == "CHINA") {
+                                                wx.setStorageSync('studentName', res.data.student.person.nameZh);
+                                              } else {
+                                                wx.setStorageSync('studentName', res.data.student.person.nameEn);
+                                              }
+                                              wx.request({
+                                                url: srvurl + '/useruploadstudentinfo',
+                                              });
                                               clearInterval(this.data.inter);
                                               wx.showToast({
                                                 title: '成功！',
